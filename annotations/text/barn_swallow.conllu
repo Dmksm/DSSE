@@ -1,0 +1,200 @@
+# newdoc id = barn_swallow
+# species = Hirundo rustica
+# newpar id = barn_swallow-p1
+# sent_id = barn_swallow-s1
+# text = Деревенская ласточка, или ласточка-касатка (лат. Hirundo rustica) — маленькая перелётная птица, рода настоящие ласточки (Hirundo), обитающая в Европе, Азии, Африке и Америке.
+1	Деревенская	деревенский	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	ласточка	ласточка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	или	или	CCONJ	_	_	_	_	_	_
+5	ласточка-касатка	ласточка-касатка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+6	(	(	PUNCT	_	_	_	_	_	_
+7	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+9	Hirundo	hirundo	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+10	rustica	rustica	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+11	)	)	PUNCT	_	_	_	_	_	_
+12	—	—	PUNCT	_	_	_	_	_	_
+13	маленькая	маленький	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+14	перелётная	перелётный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+15	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+16	,	,	PUNCT	_	_	_	_	_	_
+17	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+18	настоящие	настоящий	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-TAXON
+19	ласточки	ласточка	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-TAXON
+20	(	(	PUNCT	_	_	_	_	_	_
+21	Hirundo	hirundo	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+22	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	_	_	_	_
+24	обитающая	обитать	VERB	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+25	в	в	ADP	_	_	_	_	_	_
+26	Европе	европа	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+27	,	,	PUNCT	_	_	_	_	_	_
+28	Азии	азия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+29	,	,	PUNCT	_	_	_	_	_	_
+30	Африке	африка	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+31	и	и	CCONJ	_	_	_	_	_	_
+32	Америке	америка	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+33	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s2
+# text = От других представителей рода отличается длинным хвостом с глубоким разрезом в форме вилки и изогнутыми длинными острыми крыльями.
+1	От	от	ADP	_	_	_	_	_	_
+2	других	другой	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+3	представителей	представитель	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+4	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+5	отличается	отличаться	VERB	_	Number=Sing	_	_	_	_
+6	длинным	длинный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+7	хвостом	хвост	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+8	с	с	ADP	_	_	_	_	_	_
+9	глубоким	глубокий	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+10	разрезом	разрез	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+11	в	в	ADP	_	_	_	_	_	_
+12	форме	форма	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+13	вилки	вилка	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+14	и	и	CCONJ	_	_	_	_	_	_
+15	изогнутыми	изогнутый	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+16	длинными	длинный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+17	острыми	острый	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+18	крыльями	крыло	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s3
+# text = Небольшая птица, длина тела 14,6 — 23 см, размах крыльев 31,8 — 35 см.
+1	Небольшая	небольшой	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	длина	длина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+5	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+6	14,6	14,6	NUM	_	_	_	_	_	_
+7	—	—	PUNCT	_	_	_	_	_	_
+8	23	23	NUM	_	_	_	_	_	_
+9	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	размах	размах	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	крыльев	крыло	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+13	31,8	31,8	NUM	_	_	_	_	_	_
+14	—	—	PUNCT	_	_	_	_	_	_
+15	35	35	NUM	_	_	_	_	_	_
+16	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s4
+# text = Масса птицы составляет 17 — 24 грамм.
+1	Масса	масса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	птицы	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+3	составляет	составлять	VERB	_	Number=Sing	_	_	_	_
+4	17	17	NUM	_	_	_	_	_	_
+5	—	—	PUNCT	_	_	_	_	_	_
+6	24	24	NUM	_	_	_	_	_	_
+7	грамм	грамм	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s5
+# text = Окраска сверху сине-чёрная с металлическим отблеском, снизу бледно-бежевая.
+1	Окраска	окраска	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+2	сверху	сверху	ADV	_	_	_	_	_	_
+3	сине-чёрная	сине-чёрный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+4	с	с	ADP	_	_	_	_	_	_
+5	металлическим	металлический	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+6	отблеском	отблеск	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	снизу	снизу	ADV	_	_	_	_	_	_
+9	бледно-бежевая	бледно-бежевый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s6
+# text = На лбу и передней части шеи имеются светло-коричневые пятна.
+1	На	на	ADP	_	_	_	_	_	_
+2	лбу	лоб	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+3	и	и	CCONJ	_	_	_	_	_	_
+4	передней	передний	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+5	части	часть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+6	шеи	шея	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+7	имеются	иметься	VERB	_	Number=Plur	_	_	_	_
+8	светло-коричневые	светло-коричневый	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR
+9	пятна	пятно	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s7
+# text = Хвост длинный, с глубоким вырезом посередине.
+1	Хвост	хвост	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+2	длинный	длинный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	с	с	ADP	_	_	_	_	_	_
+5	глубоким	глубокий	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+6	вырезом	вырез	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+7	посередине	посередине	ADV	_	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s8
+# text = Самцы и самки выглядят приблизительно одинаково, хотя самки часто окрашены чуть менее контрастно, и их хвост чуть короче.
+1	Самцы	самец	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-SEX
+2	и	и	CCONJ	_	_	_	_	_	_
+3	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+4	выглядят	выглядеть	VERB	_	Number=Plur	_	_	_	_
+5	приблизительно	приблизительно	ADV	_	_	_	_	_	_
+6	одинаково	одинаково	ADV	_	_	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	хотя	хотя	CCONJ	_	_	_	_	_	_
+9	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+10	часто	часто	ADV	_	_	_	_	_	_
+11	окрашены	окрасить	VERB	_	Number=Plur	_	_	_	_
+12	чуть	чуть	ADV	_	_	_	_	_	_
+13	менее	менее	ADV	_	_	_	_	_	_
+14	контрастно	контрастно	ADV	_	_	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	и	и	CCONJ	_	_	_	_	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur	_	_	_	_
+18	хвост	хвост	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+19	чуть	чуть	ADV	_	_	_	_	_	_
+20	короче	короче	CCONJ	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s9
+# text = Пение деревенских ласточек напоминает щебет, который заканчивается характерной трелью.
+1	Пение	пение	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-VOICE
+2	деревенских	деревенский	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-SPECIES
+3	ласточек	ласточка	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=I-SPECIES
+4	напоминает	напоминать	VERB	_	Number=Sing	_	_	_	_
+5	щебет	щебет	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-VOICE|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	который	который	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+8	заканчивается	заканчиваться	VERB	_	Number=Sing	_	_	_	_
+9	характерной	характерный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+10	трелью	трель	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-VOICE|SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s10
+# text = Деревенские ласточки обитают во всех биогеографических областях, за исключением Австралии и Антарктиды.
+1	Деревенские	деревенский	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-SPECIES
+2	ласточки	ласточка	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES
+3	обитают	обитать	VERB	_	Number=Plur	_	_	_	_
+4	во	в	ADP	_	_	_	_	_	_
+5	всех	весь	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+6	биогеографических	биогеографический	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+7	областях	область	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	за	за	ADP	_	_	_	_	_	_
+10	исключением	исключение	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+11	Австралии	австралия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+12	и	и	CCONJ	_	_	_	_	_	_
+13	Антарктиды	антарктида	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = barn_swallow-s11
+# text = Зимуют они в Южной Америке, Южной Азии, Индонезии и Микронезии.
+1	Зимуют	зимовать	VERB	_	Number=Plur	_	_	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur	_	_	_	_
+3	в	в	ADP	_	_	_	_	_	_
+4	Южной	южный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+5	Америке	америка	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	Южной	южный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+8	Азии	азия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	Индонезии	индонезия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+11	и	и	CCONJ	_	_	_	_	_	_
+12	Микронезии	микронезия	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	_
+

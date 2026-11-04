@@ -1,0 +1,171 @@
+# newdoc id = eurasian_magpie
+# species = Pica pica
+# newpar id = eurasian_magpie-p1
+# sent_id = eurasian_magpie-s1
+# text = Сорока, или обыкновенная сорока, или европейская сорока (лат. Pica pica) — птица семейства врановых из рода сорок.
+1	Сорока	сорока	NOUN	_	Case=Gen	_	_	_	NER=B-SPECIES|SpaceAfter=No
+2	,	,	PUNCT	_	_	_	_	_	_
+3	или	или	CCONJ	_	_	_	_	_	_
+4	обыкновенная	обыкновенный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+5	сорока	сорока	NOUN	_	Case=Gen	_	_	_	NER=I-SPECIES|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	или	или	CCONJ	_	_	_	_	_	_
+8	европейская	европейский	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+9	сорока	сорока	NOUN	_	Case=Gen	_	_	_	NER=I-SPECIES
+10	(	(	PUNCT	_	_	_	_	_	_
+11	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	_	_	_	_
+13	Pica	pica	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+14	pica	pica	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+15	)	)	PUNCT	_	_	_	_	_	_
+16	—	—	PUNCT	_	_	_	_	_	_
+17	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON
+18	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+19	врановых	врановый	ADJ	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-TAXON
+20	из	из	ADP	_	_	_	_	_	_
+21	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+22	сорок	сорока	NOUN	_	Case=Nom	_	_	_	NER=B-TAXON|SpaceAfter=No
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s2
+# text = Выделяют 6 подвидов: многие подвиды сороки современными учёными рассматриваются в качестве отдельных видов, либо включены в другие подвиды.
+1	Выделяют	выделять	VERB	_	Number=Plur	_	_	_	_
+2	6	6	NUM	_	_	_	_	_	_
+3	подвидов	подвид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+4	:	:	PUNCT	_	_	_	_	_	_
+5	многие	многие	PRON	_	Case=Nom|Number=Plur	_	_	_	_
+6	подвиды	подвид	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON
+7	сороки	сорока	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+8	современными	современный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+9	учёными	учёный	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	_
+10	рассматриваются	рассматриваться	VERB	_	Number=Plur	_	_	_	_
+11	в	в	ADP	_	_	_	_	_	_
+12	качестве	качество	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
+13	отдельных	отдельный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+14	видов	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	либо	либо	CCONJ	_	_	_	_	_	_
+17	включены	включить	VERB	_	Number=Plur	_	_	_	_
+18	в	в	ADP	_	_	_	_	_	_
+19	другие	другой	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+20	подвиды	подвид	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s3
+# text = Сороки населяют всю Европу от Нордкапа в Скандинавии до южных оконечностей Испании и Греции.
+1	Сороки	сорока	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	населяют	населять	VERB	_	Number=Plur	_	_	_	_
+3	всю	весь	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+4	Европу	европа	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+5	от	от	ADP	_	_	_	_	_	_
+6	Нордкапа	нордкап	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+7	в	в	ADP	_	_	_	_	_	_
+8	Скандинавии	скандинавия	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+9	до	до	ADP	_	_	_	_	_	_
+10	южных	южный	ADJ	_	Case=Loc|Number=Plur	_	_	_	_
+11	оконечностей	оконечность	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
+12	Испании	испания	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+13	и	и	CCONJ	_	_	_	_	_	_
+14	Греции	греция	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s4
+# text = Она отсутствует только на нескольких островах Средиземного моря.
+1	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	отсутствует	отсутствовать	VERB	_	Number=Sing	_	_	_	_
+3	только	только	ADV	_	_	_	_	_	_
+4	на	на	ADP	_	_	_	_	_	_
+5	нескольких	несколько	NUM	_	Case=Gen	_	_	_	_
+6	островах	остров	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
+7	Средиземного	средиземный	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT
+8	моря	море	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s5
+# text = Также населяет части прибрежных областей Марокко, Алжира, Туниса на севере Африки.
+1	Также	также	PART	_	_	_	_	_	_
+2	населяет	населять	VERB	_	Number=Sing	_	_	_	_
+3	части	часть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+4	прибрежных	прибрежный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+5	областей	область	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	_
+6	Марокко	марокко	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	Алжира	алжир	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	Туниса	тунис	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+11	на	на	ADP	_	_	_	_	_	_
+12	севере	север	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
+13	Африки	африка	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+14	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s6
+# text = Сорока — это оседлая птица, но в Скандинавии также и перелётная.
+1	Сорока	сорока	NOUN	_	Case=Gen	_	_	_	NER=B-SPECIES
+2	—	—	PUNCT	_	_	_	_	_	_
+3	это	это	PRON	_	_	_	_	_	_
+4	оседлая	оседлый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+5	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	но	но	CCONJ	_	_	_	_	_	_
+8	в	в	ADP	_	_	_	_	_	_
+9	Скандинавии	скандинавия	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+10	также	также	PART	_	_	_	_	_	_
+11	и	и	CCONJ	_	_	_	_	_	_
+12	перелётная	перелётный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s7
+# text = С востока Европы сорока распространена примерно до 65 ° северной широты, с Ближнего Востока её ареал простирается на Турцию и части Ирана почти до побережья Персидского залива.
+1	С	с	ADP	_	_	_	_	_	_
+2	востока	восток	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+3	Европы	европа	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+4	сорока	сорока	NOUN	_	Case=Gen	_	_	_	NER=B-SPECIES
+5	распространена	распространить	VERB	_	Gender=Fem|Number=Sing	_	_	_	_
+6	примерно	примерно	ADV	_	_	_	_	_	_
+7	до	до	ADP	_	_	_	_	_	_
+8	65	65	NUM	_	_	_	_	_	_
+9	°	°	PUNCT	_	_	_	_	_	_
+10	северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+11	широты	широта	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	_	_	_	_
+13	с	с	ADP	_	_	_	_	_	_
+14	Ближнего	ближний	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT
+15	Востока	восток	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-HABITAT
+16	её	она	PRON	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+17	ареал	ареал	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+18	простирается	простираться	VERB	_	Number=Sing	_	_	_	_
+19	на	на	ADP	_	_	_	_	_	_
+20	Турцию	турция	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+21	и	и	CCONJ	_	_	_	_	_	_
+22	части	часть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+23	Ирана	иран	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+24	почти	почти	ADV	_	_	_	_	_	_
+25	до	до	ADP	_	_	_	_	_	_
+26	побережья	побережье	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+27	Персидского	персидский	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+28	залива	залив	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+29	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = eurasian_magpie-s8
+# text = На Дальнем Востоке северная граница распространения отступает на юг до Японского моря примерно вплоть до 50 ° северной широты.
+1	На	на	ADP	_	_	_	_	_	_
+2	Дальнем	дальний	ADJ	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+3	Востоке	восток	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	NER=I-HABITAT
+4	северная	северный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+5	граница	граница	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+6	распространения	распространение	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+7	отступает	отступать	VERB	_	Number=Sing	_	_	_	_
+8	на	на	ADP	_	_	_	_	_	_
+9	юг	юг	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+10	до	до	ADP	_	_	_	_	_	_
+11	Японского	японский	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT
+12	моря	море	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=I-HABITAT
+13	примерно	примерно	ADV	_	_	_	_	_	_
+14	вплоть	вплоть	ADV	_	_	_	_	_	_
+15	до	до	ADP	_	_	_	_	_	_
+16	50	50	NUM	_	_	_	_	_	_
+17	°	°	PUNCT	_	_	_	_	_	_
+18	северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+19	широты	широта	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+

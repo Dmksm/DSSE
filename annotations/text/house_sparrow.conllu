@@ -1,0 +1,196 @@
+# newdoc id = house_sparrow
+# species = Passer domesticus
+# newpar id = house_sparrow-p1
+# sent_id = house_sparrow-s1
+# text = Домовый воробей (лат. Passer domesticus) — наиболее распространённый вид из рода настоящих воробьёв (Passer) семейства воробьиных (Passeridae).
+1	Домовый	домовый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	воробей	воробей	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	(	(	PUNCT	_	_	_	_	_	_
+4	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	_
+6	Passer	passer	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+7	domesticus	domesticus	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	)	)	PUNCT	_	_	_	_	_	_
+9	—	—	PUNCT	_	_	_	_	_	_
+10	наиболее	наиболее	ADV	_	_	_	_	_	_
+11	распространённый	распространённый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+12	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+13	из	из	ADP	_	_	_	_	_	_
+14	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+15	настоящих	настоящий	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+16	воробьёв	воробей	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	_	_	_	NER=I-TAXON
+17	(	(	PUNCT	_	_	_	_	_	_
+18	Passer	passer	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+19	)	)	PUNCT	_	_	_	_	_	_
+20	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+21	воробьиных	воробьиный	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+22	(	(	PUNCT	_	_	_	_	_	_
+23	Passeridae	passeridae	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+24	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s2
+# text = Одна из самых известных птиц, обитающая по соседству с жилищем человека (отсюда её видовое название «домовый») и хорошо узнаваемая как по внешнему виду, так и по характерному чириканью.
+1	Одна	один	NUM	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	из	из	ADP	_	_	_	_	_	_
+3	самых	самый	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+4	известных	известный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+5	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	обитающая	обитать	VERB	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+8	по	по	ADP	_	_	_	_	_	_
+9	соседству	соседство	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	_	_	_	_
+10	с	с	ADP	_	_	_	_	_	_
+11	жилищем	жилище	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+12	человека	человек	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+13	(	(	PUNCT	_	_	_	_	_	_
+14	отсюда	отсюда	ADV	_	_	_	_	_	_
+15	её	она	PRON	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+16	видовое	видовой	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+17	название	название	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+18	«	«	PUNCT	_	_	_	_	_	_
+19	домовый	домовый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+20	»	»	PUNCT	_	_	_	_	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	_	_	_	_
+22	и	и	CCONJ	_	_	_	_	_	_
+23	хорошо	хорошо	ADV	_	_	_	_	_	_
+24	узнаваемая	узнаваемый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+25	как	как	CCONJ	_	_	_	_	_	_
+26	по	по	ADP	_	_	_	_	_	_
+27	внешнему	внешний	ADJ	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+28	виду	вид	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	_	_	_	_
+30	так	так	CCONJ	_	_	_	_	_	_
+31	и	и	CCONJ	_	_	_	_	_	_
+32	по	по	ADP	_	_	_	_	_	_
+33	характерному	характерный	ADJ	_	Case=Dat|Gender=Neut|Number=Sing	_	_	_	_
+34	чириканью	чириканье	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	_	_	_	NER=B-VOICE|SpaceAfter=No
+35	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s3
+# text = Длина тела составляет 14 — 18 см, масса — 21 — 37 г.
+1	Длина	длина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+3	составляет	составлять	VERB	_	Number=Sing	_	_	_	_
+4	14	14	NUM	_	_	_	_	_	_
+5	—	—	PUNCT	_	_	_	_	_	_
+6	18	18	NUM	_	_	_	_	_	_
+7	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	масса	масса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	—	—	PUNCT	_	_	_	_	_	_
+11	21	21	NUM	_	_	_	_	_	_
+12	—	—	PUNCT	_	_	_	_	_	_
+13	37	37	NUM	_	_	_	_	_	_
+14	г	г	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s4
+# text = Общая окраска оперения — сверху коричневато-бурая, ржавчинного цвета с чёрными пятнами, снизу беловатая или серая.
+1	Общая	общий	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	окраска	окраска	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+3	оперения	оперение	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+4	—	—	PUNCT	_	_	_	_	_	_
+5	сверху	сверху	ADV	_	_	_	_	_	_
+6	коричневато-бурая	коричневато-бурый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	ржавчинного	ржавчинный	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+9	цвета	цвет	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+10	с	с	ADP	_	_	_	_	_	_
+11	чёрными	чёрный	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR
+12	пятнами	пятно	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	снизу	снизу	ADV	_	_	_	_	_	_
+15	беловатая	беловатый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+16	или	или	CCONJ	_	_	_	_	_	_
+17	серая	серый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s5
+# text = Щёки белые, ушная область бледно-серая.
+1	Щёки	щека	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	_	_	_	NER=B-BODY_PART
+2	белые	белый	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	ушная	ушной	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+5	область	область	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-BODY_PART
+6	бледно-серая	бледно-серый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s6
+# text = Крылья с желтовато-белой поперечной полосой.
+1	Крылья	крыло	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+2	с	с	ADP	_	_	_	_	_	_
+3	желтовато-белой	желтовато-белый	ADJ	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+4	поперечной	поперечный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+5	полосой	полоса	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s7
+# text = Самец отличается от самки наличием большого чёрного пятна («галстука»), охватывающего подбородок, горло, зоб и верхнюю часть груди, а также тёмно-серым (а не тёмно-бурым) верхом головы.
+1	Самец	самец	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SEX
+2	отличается	отличаться	VERB	_	Number=Sing	_	_	_	_
+3	от	от	ADP	_	_	_	_	_	_
+4	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+5	наличием	наличие	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+6	большого	большой	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+7	чёрного	чёрный	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR
+8	пятна	пятно	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+9	(	(	PUNCT	_	_	_	_	_	_
+10	«	«	PUNCT	_	_	_	_	_	_
+11	галстука	галстук	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+12	»	»	PUNCT	_	_	_	_	_	SpaceAfter=No
+13	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	_	_	_	_
+15	охватывающего	охватывать	VERB	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+16	подбородок	подбородок	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+17	,	,	PUNCT	_	_	_	_	_	_
+18	горло	горло	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+19	,	,	PUNCT	_	_	_	_	_	_
+20	зоб	зоб	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+21	и	и	CCONJ	_	_	_	_	_	_
+22	верхнюю	верхний	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+23	часть	часть	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+24	груди	грудь	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+25	,	,	PUNCT	_	_	_	_	_	_
+26	а	а	CCONJ	_	_	_	_	_	_
+27	также	также	PART	_	_	_	_	_	_
+28	тёмно-серым	тёмно-серый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+29	(	(	PUNCT	_	_	_	_	_	_
+30	а	а	CCONJ	_	_	_	_	_	_
+31	не	не	PART	_	_	_	_	_	_
+32	тёмно-бурым	тёмно-бурый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+33	)	)	PUNCT	_	_	_	_	_	_
+34	верхом	верх	NOUN	_	_	_	_	_	NER=B-BODY_PART
+35	головы	голова	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+36	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s8
+# text = У самки голова и горло серые, а над глазом имеется бледная серо-жёлтая полоса.
+1	У	у	ADP	_	_	_	_	_	_
+2	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+3	голова	голова	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+4	и	и	CCONJ	_	_	_	_	_	_
+5	горло	горло	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+6	серые	серый	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	а	а	CCONJ	_	_	_	_	_	_
+9	над	над	ADP	_	_	_	_	_	_
+10	глазом	глаз	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+11	имеется	иметься	VERB	_	Number=Sing	_	_	_	_
+12	бледная	бледный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+13	серо-жёлтая	серо-жёлтый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+14	полоса	полоса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = house_sparrow-s9
+# text = Прежде область обитания домового воробья ограничивалась Северной Европой.
+1	Прежде	прежде	ADP	_	_	_	_	_	_
+2	область	область	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	обитания	обитание	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+4	домового	домовый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+5	воробья	воробей	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+6	ограничивалась	ограничиваться	VERB	_	Gender=Fem|Number=Sing	_	_	_	_
+7	Северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+8	Европой	европа	PROPN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+9	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,182 @@
+# newdoc id = great_tit
+# species = Parus major
+# newpar id = great_tit-p1
+# sent_id = great_tit-s1
+# text = Большая синица, или большак (лат. Parus major), — широко распространённая птица из семейства синицевых, отряда воробьинообразных.
+1	Большая	большой	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	синица	синица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	или	или	CCONJ	_	_	_	_	_	_
+5	большак	большак	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+6	(	(	PUNCT	_	_	_	_	_	_
+7	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+9	Parus	parus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+10	major	major	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+11	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	_	_	_	_
+13	—	—	PUNCT	_	_	_	_	_	_
+14	широко	широко	ADV	_	_	_	_	_	_
+15	распространённая	распространённый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+16	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON
+17	из	из	ADP	_	_	_	_	_	_
+18	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+19	синицевых	синицев	NOUN	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+20	,	,	PUNCT	_	_	_	_	_	_
+21	отряда	отряд	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+22	воробьинообразных	воробьинообразный	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s2
+# text = Обитает на всей территории Европы, Ближнего Востока, Центральной и Северной Азии, в некоторых районах Северной Африки.
+1	Обитает	обитать	VERB	_	Number=Sing	_	_	_	_
+2	на	на	ADP	_	_	_	_	_	_
+3	всей	весь	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+4	территории	территория	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+5	Европы	европа	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	Ближнего	ближний	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT
+8	Востока	восток	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	Центральной	центральный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+11	и	и	CCONJ	_	_	_	_	_	_
+12	Северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+13	Азии	азия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+14	,	,	PUNCT	_	_	_	_	_	_
+15	в	в	ADP	_	_	_	_	_	_
+16	некоторых	некоторый	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+17	районах	район	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
+18	Северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+19	Африки	африка	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s3
+# text = В дикой природе встречается в разнообразных лесах, обычно на открытых участках, опушках, по берегам водоёмов.
+1	В	в	ADP	_	_	_	_	_	_
+2	дикой	дикий	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+3	природе	природа	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+4	встречается	встречаться	VERB	_	Number=Sing	_	_	_	_
+5	в	в	ADP	_	_	_	_	_	_
+6	разнообразных	разнообразный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+7	лесах	лес	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	обычно	обычно	ADV	_	_	_	_	_	_
+10	на	на	ADP	_	_	_	_	_	_
+11	открытых	открытый	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+12	участках	участок	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	опушках	опушка	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	_	_	_	NER=B-HABITAT|SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	по	по	ADP	_	_	_	_	_	_
+17	берегам	берег	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT
+18	водоёмов	водоём	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT|SpaceAfter=No
+19	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s4
+# text = Это, как правило, неперелётные птицы, и большинство больших синиц не мигрирует, кроме очень суровых зим.
+1	Это	это	PRON	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	_	_	_	_
+3	как	как	CCONJ	_	_	_	_	_	_
+4	правило	правило	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	_	_	_	_
+6	неперелётные	неперелётный	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+7	птицы	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	и	и	CCONJ	_	_	_	_	_	_
+10	большинство	большинство	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+11	больших	большой	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-SPECIES
+12	синиц	синица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=I-SPECIES
+13	не	не	PART	_	_	_	_	_	_
+14	мигрирует	мигрировать	VERB	_	Number=Sing	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	кроме	кроме	ADP	_	_	_	_	_	_
+17	очень	очень	ADV	_	_	_	_	_	_
+18	суровых	суровый	ADJ	_	Case=Loc|Number=Plur	_	_	_	_
+19	зим	зима	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s5
+# text = Обычно в этот вид включается множество подвидов.
+1	Обычно	обычно	ADV	_	_	_	_	_	_
+2	в	в	ADP	_	_	_	_	_	_
+3	этот	этот	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+4	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+5	включается	включаться	VERB	_	Number=Sing	_	_	_	_
+6	множество	множество	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+7	подвидов	подвид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s6
+# text = Большая синица остаётся самым крупным и наиболее многочисленным из всех встречающихся видов рода синицы, в частности в России.
+1	Большая	большой	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	синица	синица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES
+3	остаётся	оставаться	VERB	_	Number=Sing	_	_	_	_
+4	самым	самый	ADJ	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+5	крупным	крупный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+6	и	и	CCONJ	_	_	_	_	_	_
+7	наиболее	наиболее	ADV	_	_	_	_	_	_
+8	многочисленным	многочисленный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+9	из	из	ADP	_	_	_	_	_	_
+10	всех	весь	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+11	встречающихся	встречаться	VERB	_	Case=Gen|Number=Plur	_	_	_	_
+12	видов	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON
+13	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+14	синицы	синица	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	в	в	ADP	_	_	_	_	_	_
+17	частности	частность	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+18	в	в	ADP	_	_	_	_	_	_
+19	России	россия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s7
+# text = Синица выделяется чёрной головой и шеей, бросающимися в глаза белыми щеками, оливковым верхом и жёлтым низом, с некоторыми вариациями среди многочисленных подвидов.
+1	Синица	синица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	выделяется	выделяться	VERB	_	Number=Sing	_	_	_	_
+3	чёрной	чёрный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+4	головой	голова	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+5	и	и	CCONJ	_	_	_	_	_	_
+6	шеей	шея	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	бросающимися	бросаться	VERB	_	Case=Ins|Number=Plur	_	_	_	_
+9	в	в	ADP	_	_	_	_	_	_
+10	глаза	глаз	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+11	белыми	белый	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR
+12	щеками	щека	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	оливковым	оливковый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+15	верхом	верх	NOUN	_	_	_	_	_	NER=B-BODY_PART
+16	и	и	CCONJ	_	_	_	_	_	_
+17	жёлтым	жёлтый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+18	низом	низ	NOUN	_	_	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+19	,	,	PUNCT	_	_	_	_	_	_
+20	с	с	ADP	_	_	_	_	_	_
+21	некоторыми	некоторый	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+22	вариациями	вариация	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	_
+23	среди	среди	ADP	_	_	_	_	_	_
+24	многочисленных	многочисленный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+25	подвидов	подвид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+26	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s8
+# text = Летом питается преимущественно мелкими насекомыми и другими беспозвоночными.
+1	Летом	лето	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+2	питается	питаться	VERB	_	Number=Sing	_	_	_	_
+3	преимущественно	преимущественно	ADV	_	_	_	_	_	_
+4	мелкими	мелкий	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+5	насекомыми	насекомое	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-FOOD
+6	и	и	CCONJ	_	_	_	_	_	_
+7	другими	другой	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+8	беспозвоночными	беспозвоночный	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-FOOD|SpaceAfter=No
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = great_tit-s9
+# text = Зимой переходит на более разнообразный корм.
+1	Зимой	зимой	ADV	_	_	_	_	_	_
+2	переходит	переходить	VERB	_	Number=Sing	_	_	_	_
+3	на	на	ADP	_	_	_	_	_	_
+4	более	более	ADV	_	_	_	_	_	_
+5	разнообразный	разнообразный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+6	корм	корм	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	NER=B-FOOD|SpaceAfter=No
+7	.	.	PUNCT	_	_	_	_	_	_
+

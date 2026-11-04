@@ -1,0 +1,189 @@
+# newdoc id = common_cuckoo
+# species = Cuculus canorus
+# newpar id = common_cuckoo-p1
+# sent_id = common_cuckoo-s1
+# text = Обыкновенная кукушка (лат. Cuculus canorus) — птица, наиболее распространённый и известный вид в семействе кукушковых.
+1	Обыкновенная	обыкновенный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	кукушка	кукушка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES
+3	(	(	PUNCT	_	_	_	_	_	_
+4	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	_
+6	Cuculus	cuculus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+7	canorus	canorus	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	)	)	PUNCT	_	_	_	_	_	_
+9	—	—	PUNCT	_	_	_	_	_	_
+10	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+11	,	,	PUNCT	_	_	_	_	_	_
+12	наиболее	наиболее	ADV	_	_	_	_	_	_
+13	распространённый	распространённый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	и	и	CCONJ	_	_	_	_	_	_
+15	известный	известный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+16	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+17	в	в	ADP	_	_	_	_	_	_
+18	семействе	семейство	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+19	кукушковых	кукушковый	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s2
+# text = Латинское название вида происходит от латинского Cuculus (кукушка) и canorus (мелодичный; от canere, что означает «петь»).
+1	Латинское	латинский	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+2	название	название	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+3	вида	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+4	происходит	происходить	VERB	_	Number=Sing	_	_	_	_
+5	от	от	ADP	_	_	_	_	_	_
+6	латинского	латинский	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+7	Cuculus	cuculus	X	_	Foreign=Yes	_	_	_	NER=B-TAXON
+8	(	(	PUNCT	_	_	_	_	_	_
+9	кукушка	кукушка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+10	)	)	PUNCT	_	_	_	_	_	_
+11	и	и	CCONJ	_	_	_	_	_	_
+12	canorus	canorus	X	_	Foreign=Yes	_	_	_	_
+13	(	(	PUNCT	_	_	_	_	_	_
+14	мелодичный	мелодичный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	;	;	PUNCT	_	_	_	_	_	_
+16	от	от	ADP	_	_	_	_	_	_
+17	canere	canere	X	_	Foreign=Yes	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	_	_	_	_
+19	что	что	CCONJ	_	_	_	_	_	_
+20	означает	означать	VERB	_	Number=Sing	_	_	_	_
+21	«	«	PUNCT	_	_	_	_	_	_
+22	петь	петь	VERB	_	_	_	_	_	SpaceAfter=No
+23	»	»	PUNCT	_	_	_	_	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s3
+# text = Всё семейство кукушек получило своё название и название рода от звукоподражания для призывного крика самца обыкновенной кукушки.
+1	Всё	всё	PART	_	_	_	_	_	_
+2	семейство	семейство	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+3	кукушек	кукушка	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+4	получило	получить	VERB	_	Gender=Neut|Number=Sing	_	_	_	_
+5	своё	свой	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
+6	название	название	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+7	и	и	CCONJ	_	_	_	_	_	_
+8	название	название	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+9	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+10	от	от	ADP	_	_	_	_	_	_
+11	звукоподражания	звукоподражание	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-VOICE
+12	для	для	ADP	_	_	_	_	_	_
+13	призывного	призывный	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+14	крика	крик	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-VOICE
+15	самца	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SEX
+16	обыкновенной	обыкновенный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+17	кукушки	кукушка	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES|SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s4
+# text = Выделяют четыре подвида этого вида: С. с. canorus, номинативный подвид, впервые был описан Линнеем в 1758 году.
+1	Выделяют	выделять	VERB	_	Number=Plur	_	_	_	_
+2	четыре	четыре	NUM	_	Case=Acc	_	_	_	_
+3	подвида	подвид	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+4	этого	этот	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+5	вида	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+6	:	:	PUNCT	_	_	_	_	_	_
+7	С	с	ADP	_	_	_	_	_	NER=B-SPECIES|SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	NER=I-SPECIES
+9	с	с	ADP	_	_	_	_	_	NER=I-SPECIES|SpaceAfter=No
+10	.	.	PUNCT	_	_	_	_	_	NER=I-SPECIES
+11	canorus	canorus	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+12	,	,	PUNCT	_	_	_	_	_	_
+13	номинативный	номинативный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	подвид	подвид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	впервые	впервые	ADV	_	_	_	_	_	_
+17	был	быть	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+18	описан	описать	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+19	Линнеем	линней	PROPN	_	Number=Plur	_	_	_	_
+20	в	в	ADP	_	_	_	_	_	_
+21	1758	1758	NUM	_	_	_	_	_	_
+22	году	год	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s5
+# text = Его ареал простирается от Британских островов через Скандинавию, север России и Сибири до Японии на востоке, и от Пиренеев через Турцию, Казахстан, Монголию до севера Китая и Кореи.
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+2	ареал	ареал	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+3	простирается	простираться	VERB	_	Number=Sing	_	_	_	_
+4	от	от	ADP	_	_	_	_	_	_
+5	Британских	британский	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-HABITAT
+6	островов	остров	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=I-HABITAT
+7	через	через	ADP	_	_	_	_	_	_
+8	Скандинавию	скандинавия	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	север	север	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+11	России	россия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+12	и	и	CCONJ	_	_	_	_	_	_
+13	Сибири	сибирь	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+14	до	до	ADP	_	_	_	_	_	_
+15	Японии	япония	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+16	на	на	ADP	_	_	_	_	_	_
+17	востоке	восток	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	_	_	_	_
+19	и	и	CCONJ	_	_	_	_	_	_
+20	от	от	ADP	_	_	_	_	_	_
+21	Пиренеев	пиренеи	PROPN	_	Case=Gen|Number=Plur	_	_	_	NER=B-HABITAT
+22	через	через	ADP	_	_	_	_	_	_
+23	Турцию	турция	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+24	,	,	PUNCT	_	_	_	_	_	_
+25	Казахстан	казахстан	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+26	,	,	PUNCT	_	_	_	_	_	_
+27	Монголию	монголия	PROPN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+28	до	до	ADP	_	_	_	_	_	_
+29	севера	север	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+30	Китая	китай	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+31	и	и	CCONJ	_	_	_	_	_	_
+32	Кореи	корея	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+33	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s6
+# text = Предполагается, что зимует в Африке и Южной Азии.
+1	Предполагается	предполагаться	VERB	_	Number=Sing	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	_	_	_	_
+3	что	что	CCONJ	_	_	_	_	_	_
+4	зимует	зимовать	VERB	_	Number=Sing	_	_	_	_
+5	в	в	ADP	_	_	_	_	_	_
+6	Африке	африка	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+7	и	и	CCONJ	_	_	_	_	_	_
+8	Южной	южный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+9	Азии	азия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_cuckoo-s7
+# text = С. c. bakeri, впервые описан в 1912 году Хартертом, гнездится в западной части Китая в предгорьях Гималаев на севере Индии, Непала, Мьянмы, на северо-западе Таиланда и Южного Китая.
+1	С	с	ADP	_	_	_	_	_	NER=B-SPECIES|SpaceAfter=No
+2	.	.	PUNCT	_	_	_	_	_	NER=I-SPECIES
+3	c	c	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+4	.	.	PUNCT	_	_	_	_	_	NER=I-SPECIES
+5	bakeri	bakeri	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	впервые	впервые	ADV	_	_	_	_	_	_
+8	описан	описать	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+9	в	в	ADP	_	_	_	_	_	_
+10	1912	1912	NUM	_	_	_	_	_	_
+11	году	год	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
+12	Хартертом	хартерт	PROPN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	гнездится	гнездиться	VERB	_	Number=Sing	_	_	_	_
+15	в	в	ADP	_	_	_	_	_	_
+16	западной	западный	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+17	части	часть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+18	Китая	китай	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+19	в	в	ADP	_	_	_	_	_	_
+20	предгорьях	предгорие	NOUN	_	Case=Loc|Gender=Neut|Number=Plur	_	_	_	_
+21	Гималаев	гималаи	PROPN	_	Case=Gen|Number=Plur	_	_	_	NER=B-HABITAT
+22	на	на	ADP	_	_	_	_	_	_
+23	севере	север	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
+24	Индии	индия	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+25	,	,	PUNCT	_	_	_	_	_	_
+26	Непала	непал	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+27	,	,	PUNCT	_	_	_	_	_	_
+28	Мьянмы	мьянма	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+29	,	,	PUNCT	_	_	_	_	_	_
+30	на	на	ADP	_	_	_	_	_	_
+31	северо-западе	северо-запад	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
+32	Таиланда	таиланд	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-HABITAT
+33	и	и	CCONJ	_	_	_	_	_	_
+34	Южного	южный	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-HABITAT
+35	Китая	китай	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+36	.	.	PUNCT	_	_	_	_	_	_
+

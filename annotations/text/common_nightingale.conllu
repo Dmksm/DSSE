@@ -1,0 +1,184 @@
+# newdoc id = common_nightingale
+# species = Luscinia megarhynchos
+# newpar id = common_nightingale-p1
+# sent_id = common_nightingale-s1
+# text = Западный соловей, или южный соловей (лат. Luscinia megarhynchos) — вид птиц отряда воробьинообразных (Passeriformes) семейства мухоловковых (Muscicapidae).
+1	Западный	западный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	соловей	соловей	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	или	или	CCONJ	_	_	_	_	_	_
+5	южный	южный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+6	соловей	соловей	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+7	(	(	PUNCT	_	_	_	_	_	_
+8	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	_	_	_	_
+10	Luscinia	luscinia	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+11	megarhynchos	megarhynchos	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+12	)	)	PUNCT	_	_	_	_	_	_
+13	—	—	PUNCT	_	_	_	_	_	_
+14	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+15	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+16	отряда	отряд	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+17	воробьинообразных	воробьинообразный	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+18	(	(	PUNCT	_	_	_	_	_	_
+19	Passeriformes	passeriformes	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+20	)	)	PUNCT	_	_	_	_	_	_
+21	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+22	мухоловковых	мухоловков	NOUN	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+23	(	(	PUNCT	_	_	_	_	_	_
+24	Muscicapidae	muscicapidae	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+25	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s2
+# text = Величина взрослой особи составляет приблизительно 16,5 см, что соответствует размеру домового воробья (Passer domesticus).
+1	Величина	величина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	взрослой	взрослый	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+3	особи	особь	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	_
+4	составляет	составлять	VERB	_	Number=Sing	_	_	_	_
+5	приблизительно	приблизительно	ADV	_	_	_	_	_	_
+6	16,5	16,5	NUM	_	_	_	_	_	_
+7	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	что	что	CCONJ	_	_	_	_	_	_
+10	соответствует	соответствовать	VERB	_	Number=Sing	_	_	_	_
+11	размеру	размер	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+12	домового	домовый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+13	воробья	воробей	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+14	(	(	PUNCT	_	_	_	_	_	_
+15	Passer	passer	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+16	domesticus	domesticus	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+17	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s3
+# text = Верхняя сторона тела окрашена в более светлые и тёплые коричневые тона, а нижняя часть тела серо-желтоватая.
+1	Верхняя	верхний	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	сторона	сторона	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+4	окрашена	окрасить	VERB	_	Gender=Fem|Number=Sing	_	_	_	_
+5	в	в	ADP	_	_	_	_	_	_
+6	более	более	ADV	_	_	_	_	_	_
+7	светлые	светлый	ADJ	_	Case=Acc|Number=Plur	_	_	_	NER=B-COLOR
+8	и	и	CCONJ	_	_	_	_	_	_
+9	тёплые	тёплый	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+10	коричневые	коричневый	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR
+11	тона	тон	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-COLOR|SpaceAfter=No
+12	,	,	PUNCT	_	_	_	_	_	_
+13	а	а	CCONJ	_	_	_	_	_	_
+14	нижняя	нижний	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+15	часть	часть	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+16	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+17	серо-желтоватая	серо-желтоватый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s4
+# text = Хвост с красноватым оттенком, грудь без пятен и узоров.
+1	Хвост	хвост	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+2	с	с	ADP	_	_	_	_	_	_
+3	красноватым	красноватый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+4	оттенком	оттенок	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=I-COLOR|SpaceAfter=No
+5	,	,	PUNCT	_	_	_	_	_	_
+6	грудь	грудь	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+7	без	без	ADP	_	_	_	_	_	_
+8	пятен	пятно	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+9	и	и	CCONJ	_	_	_	_	_	_
+10	узоров	узор	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s5
+# text = Лапки жёлто-розового цвета.
+1	Лапки	лапка	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+2	жёлто-розового	жёлто-розовый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+3	цвета	цвет	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-COLOR|SpaceAfter=No
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s6
+# text = Западного соловья нередко можно спутать с восточным соловьём (Luscinia luscinia), так как многие части тела у них одного цвета.
+1	Западного	западный	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-SPECIES
+2	соловья	соловей	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	нередко	нередко	ADV	_	_	_	_	_	_
+4	можно	можно	ADV	_	_	_	_	_	_
+5	спутать	спутать	VERB	_	_	_	_	_	_
+6	с	с	ADP	_	_	_	_	_	_
+7	восточным	восточный	ADJ	_	Case=Dat|Number=Plur	_	_	_	NER=B-SPECIES
+8	соловьём	соловей	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+9	(	(	PUNCT	_	_	_	_	_	_
+10	Luscinia	luscinia	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+11	luscinia	luscinia	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+12	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	так	так	CCONJ	_	_	_	_	_	_
+15	как	как	CCONJ	_	_	_	_	_	_
+16	многие	многие	PRON	_	Case=Nom|Number=Plur	_	_	_	_
+17	части	часть	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+18	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+19	у	у	ADP	_	_	_	_	_	_
+20	них	они	PRON	_	Case=Gen|Number=Plur	_	_	_	_
+21	одного	один	NUM	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+22	цвета	цвет	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s7
+# text = Последний немного мельче по размеру, окрашен несколько темнее и обладает серо-коричневым пятнистым рисунком на груди.
+1	Последний	последний	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+2	немного	немного	ADV	_	_	_	_	_	_
+3	мельче	мелкий	ADV	_	_	_	_	_	_
+4	по	по	ADP	_	_	_	_	_	_
+5	размеру	размер	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	окрашен	окрасить	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+8	несколько	несколько	ADV	_	_	_	_	_	_
+9	темнее	тёмный	ADV	_	_	_	_	_	NER=B-COLOR
+10	и	и	CCONJ	_	_	_	_	_	_
+11	обладает	обладать	VERB	_	Number=Sing	_	_	_	_
+12	серо-коричневым	серо-коричневый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+13	пятнистым	пятнистый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+14	рисунком	рисунок	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+15	на	на	ADP	_	_	_	_	_	_
+16	груди	грудь	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s8
+# text = Кроме того, оба этих вида могут скрещиваться между собой в районах пересечения своих ареалов.
+1	Кроме	кроме	ADP	_	_	_	_	_	_
+2	того	тот	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	оба	оба	NUM	_	Case=Nom|Gender=Masc	_	_	_	_
+5	этих	этот	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+6	вида	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+7	могут	мочь	VERB	_	Number=Plur	_	_	_	_
+8	скрещиваться	скрещиваться	VERB	_	_	_	_	_	_
+9	между	между	ADP	_	_	_	_	_	_
+10	собой	себя	PRON	_	Case=Ins|Number=Sing	_	_	_	_
+11	в	в	ADP	_	_	_	_	_	_
+12	районах	район	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
+13	пересечения	пересечение	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+14	своих	свой	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+15	ареалов	ареал	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_nightingale-s9
+# text = Западный соловей питается насекомыми и их личинками, а также червями и гусеницами, иногда пауками и другими беспозвоночными животными.
+1	Западный	западный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	соловей	соловей	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	питается	питаться	VERB	_	Number=Sing	_	_	_	_
+4	насекомыми	насекомое	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-FOOD
+5	и	и	CCONJ	_	_	_	_	_	_
+6	их	они	PRON	_	Case=Acc|Number=Plur	_	_	_	_
+7	личинками	личинка	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	NER=B-FOOD|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	а	а	CCONJ	_	_	_	_	_	_
+10	также	также	PART	_	_	_	_	_	_
+11	червями	червь	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	NER=B-FOOD
+12	и	и	CCONJ	_	_	_	_	_	_
+13	гусеницами	гусеница	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	NER=B-FOOD|SpaceAfter=No
+14	,	,	PUNCT	_	_	_	_	_	_
+15	иногда	иногда	ADV	_	_	_	_	_	_
+16	пауками	паук	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	NER=B-FOOD
+17	и	и	CCONJ	_	_	_	_	_	_
+18	другими	другой	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+19	беспозвоночными	беспозвоночный	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-FOOD
+20	животными	животное	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	_	_	_	_
+

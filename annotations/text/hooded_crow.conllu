@@ -1,0 +1,197 @@
+# newdoc id = hooded_crow
+# species = Corvus cornix
+# newpar id = hooded_crow-p1
+# sent_id = hooded_crow-s1
+# text = Серая ворона (лат. Corvus cornix) — вид птиц из рода воронов.
+1	Серая	серый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	ворона	ворона	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=I-SPECIES
+3	(	(	PUNCT	_	_	_	_	_	_
+4	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	_
+6	Corvus	corvus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+7	cornix	cornix	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	)	)	PUNCT	_	_	_	_	_	_
+9	—	—	PUNCT	_	_	_	_	_	_
+10	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+11	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+12	из	из	ADP	_	_	_	_	_	_
+13	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+14	воронов	воронов	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s2
+# text = Иногда чёрную и серую ворону рассматривают как подвиды одного вида — в этом случае чёрную ворону называют Corvus corone corone, а серую — Corvus corone cornix.
+1	Иногда	иногда	ADV	_	_	_	_	_	_
+2	чёрную	чёрный	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+3	и	и	CCONJ	_	_	_	_	_	_
+4	серую	серый	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+5	ворону	ворона	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+6	рассматривают	рассматривать	VERB	_	Number=Plur	_	_	_	_
+7	как	как	CCONJ	_	_	_	_	_	_
+8	подвиды	подвид	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON
+9	одного	один	NUM	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+10	вида	вид	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+11	—	—	PUNCT	_	_	_	_	_	_
+12	в	в	ADP	_	_	_	_	_	_
+13	этом	это	PRON	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
+14	случае	случай	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	_
+15	чёрную	чёрный	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+16	ворону	ворона	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+17	называют	называть	VERB	_	Number=Plur	_	_	_	_
+18	Corvus	corvus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+19	corone	corone	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES
+20	corone	corone	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+21	,	,	PUNCT	_	_	_	_	_	_
+22	а	а	CCONJ	_	_	_	_	_	_
+23	серую	серый	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+24	—	—	PUNCT	_	_	_	_	_	_
+25	Corvus	corvus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+26	corone	corone	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES
+27	cornix	cornix	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+28	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s3
+# text = Средняя длина — 50 сантиметров, масса тела 460 — 735 граммов, размах крыльев — до 1 метра.
+1	Средняя	средний	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	длина	длина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	—	—	PUNCT	_	_	_	_	_	_
+4	50	50	NUM	_	_	_	_	_	_
+5	сантиметров	сантиметр	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	масса	масса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+8	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+9	460	460	NUM	_	_	_	_	_	_
+10	—	—	PUNCT	_	_	_	_	_	_
+11	735	735	NUM	_	_	_	_	_	_
+12	граммов	грамм	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	размах	размах	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+15	крыльев	крыло	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+16	—	—	PUNCT	_	_	_	_	_	_
+17	до	до	ADP	_	_	_	_	_	_
+18	1	1	NUM	_	_	_	_	_	_
+19	метра	метр	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s4
+# text = В среднем несколько крупнее грача, плотнее сложена, имеет более высокий и крепкий, изогнутый по коньку клюв, а также более широкие, тупые крылья (что особенно заметно в полёте).
+1	В	в	ADP	_	_	_	_	_	_
+2	среднем	среднее	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
+3	несколько	несколько	ADV	_	_	_	_	_	_
+4	крупнее	крупный	ADV	_	_	_	_	_	_
+5	грача	грач	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	плотнее	плотный	ADV	_	_	_	_	_	_
+8	сложена	сложённый	ADJ	_	Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	имеет	иметь	VERB	_	Number=Sing	_	_	_	_
+11	более	более	ADV	_	_	_	_	_	_
+12	высокий	высокий	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+13	и	и	CCONJ	_	_	_	_	_	_
+14	крепкий	крепкий	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	изогнутый	изогнутый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+17	по	по	ADP	_	_	_	_	_	_
+18	коньку	конёк	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+19	клюв	клюв	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+20	,	,	PUNCT	_	_	_	_	_	_
+21	а	а	CCONJ	_	_	_	_	_	_
+22	также	также	PART	_	_	_	_	_	_
+23	более	более	ADV	_	_	_	_	_	_
+24	широкие	широкий	ADJ	_	Case=Acc|Number=Plur	_	_	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	_	_	_	_
+26	тупые	тупой	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+27	крылья	крыло	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+28	(	(	PUNCT	_	_	_	_	_	_
+29	что	что	CCONJ	_	_	_	_	_	_
+30	особенно	особенно	ADV	_	_	_	_	_	_
+31	заметно	заметно	ADV	_	_	_	_	_	_
+32	в	в	ADP	_	_	_	_	_	_
+33	полёте	полёт	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+34	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s5
+# text = Туловище серое, голова, «манишка», крылья, хвост чёрные со слабым металлическим блеском.
+1	Туловище	туловище	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+2	серое	серый	ADJ	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	голова	голова	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+5	,	,	PUNCT	_	_	_	_	_	_
+6	«	«	PUNCT	_	_	_	_	_	_
+7	манишка	манишка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+8	»	»	PUNCT	_	_	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	крылья	крыло	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+11	,	,	PUNCT	_	_	_	_	_	_
+12	хвост	хвост	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+13	чёрные	чёрный	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR
+14	со	с	ADP	_	_	_	_	_	_
+15	слабым	слабый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+16	металлическим	металлический	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+17	блеском	блеск	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s6
+# text = Радужка тёмная, клюв и ноги чёрные.
+1	Радужка	радужка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+2	тёмная	тёмный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+3	,	,	PUNCT	_	_	_	_	_	_
+4	клюв	клюв	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+5	и	и	CCONJ	_	_	_	_	_	_
+6	ноги	нога	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	_	_	_	NER=B-BODY_PART
+7	чёрные	чёрный	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+8	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s7
+# text = Молодые птицы отличаются буроватым налётом, «мутными» (голубыми) глазами, розовой ротовой полостью.
+1	Молодые	молодой	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+2	птицы	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+3	отличаются	отличаться	VERB	_	Number=Plur	_	_	_	_
+4	буроватым	буроватый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+5	налётом	налёт	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	«	«	PUNCT	_	_	_	_	_	_
+8	мутными	мутный	ADJ	_	Case=Ins|Number=Plur	_	_	_	SpaceAfter=No
+9	»	»	PUNCT	_	_	_	_	_	_
+10	(	(	PUNCT	_	_	_	_	_	_
+11	голубыми	голубой	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+12	)	)	PUNCT	_	_	_	_	_	_
+13	глазами	глаз	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+14	,	,	PUNCT	_	_	_	_	_	_
+15	розовой	розовый	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+16	ротовой	ротовой	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+17	полостью	полость	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=I-BODY_PART|SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s8
+# text = Собравшиеся в стаи блестящие вороны могут представлять проблему для человека.
+1	Собравшиеся	собраться	VERB	_	Case=Nom|Number=Plur	_	_	_	_
+2	в	в	ADP	_	_	_	_	_	_
+3	стаи	стая	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+4	блестящие	блестящий	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+5	вороны	ворона	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+6	могут	мочь	VERB	_	Number=Plur	_	_	_	_
+7	представлять	представлять	VERB	_	_	_	_	_	_
+8	проблему	проблема	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+9	для	для	ADP	_	_	_	_	_	_
+10	человека	человек	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = hooded_crow-s9
+# text = Сезону размножения предшествует ток с воздушными играми, погонями, кувырканьем в воздухе.
+1	Сезону	сезон	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+2	размножения	размножение	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+3	предшествует	предшествовать	VERB	_	Number=Sing	_	_	_	_
+4	ток	ток	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+5	с	с	ADP	_	_	_	_	_	_
+6	воздушными	воздушный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+7	играми	игра	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	погонями	погоня	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	кувырканьем	кувыркание	NOUN	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+12	в	в	ADP	_	_	_	_	_	_
+13	воздухе	воздух	NOUN	_	Case=Loc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,193 @@
+# newdoc id = white_stork
+# species = Ciconia ciconia
+# newpar id = white_stork-p1
+# sent_id = white_stork-s1
+# text = Белый аист (лат. Ciconia ciconia) — вид птиц из семейства аистовых.
+1	Белый	белый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	аист	аист	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	(	(	PUNCT	_	_	_	_	_	_
+4	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	_
+6	Ciconia	ciconia	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+7	ciconia	ciconia	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	)	)	PUNCT	_	_	_	_	_	_
+9	—	—	PUNCT	_	_	_	_	_	_
+10	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+11	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+12	из	из	ADP	_	_	_	_	_	_
+13	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+14	аистовых	аистовый	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s2
+# text = Белый аист — белая птица с чёрными концами крыльев, длинной шеей, длинным, тонким, красным клювом и длинными красноватыми ногами.
+1	Белый	белый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	аист	аист	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	—	—	PUNCT	_	_	_	_	_	_
+4	белая	белый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+5	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON
+6	с	с	ADP	_	_	_	_	_	_
+7	чёрными	чёрный	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR
+8	концами	конец	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	_
+9	крыльев	крыло	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	длинной	длинный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+12	шеей	шея	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	длинным	длинный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	_	_	_	_
+16	тонким	тонкий	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	_	_	_	_
+18	красным	красный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+19	клювом	клюв	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+20	и	и	CCONJ	_	_	_	_	_	_
+21	длинными	длинный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+22	красноватыми	красноватый	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR
+23	ногами	нога	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+24	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s3
+# text = Когда крылья у аиста сложены, создаётся впечатление, что вся задняя часть тела аиста чёрная.
+1	Когда	когда	CCONJ	_	_	_	_	_	_
+2	крылья	крыло	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+3	у	у	ADP	_	_	_	_	_	_
+4	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+5	сложены	сложённый	ADJ	_	Number=Plur	_	_	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	создаётся	создаваться	VERB	_	Number=Sing	_	_	_	_
+8	впечатление	впечатление	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	что	что	CCONJ	_	_	_	_	_	_
+11	вся	весь	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+12	задняя	задний	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+13	часть	часть	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+14	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+15	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+16	чёрная	чёрный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s4
+# text = Самки по окрасу неотличимы от самцов, но несколько меньше.
+1	Самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+2	по	по	ADP	_	_	_	_	_	_
+3	окрасу	окрас	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	_	_	_	_
+4	неотличимы	неотличимый	ADJ	_	Number=Plur	_	_	_	_
+5	от	от	ADP	_	_	_	_	_	_
+6	самцов	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-SEX|SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	но	но	CCONJ	_	_	_	_	_	_
+9	несколько	несколько	ADV	_	_	_	_	_	_
+10	меньше	маленький	ADV	_	_	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s5
+# text = Рост белого аиста составляет 100 — 125 см, размах крыльев 155 — 200 см.
+1	Рост	рост	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+2	белого	белый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+3	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+4	составляет	составлять	VERB	_	Number=Sing	_	_	_	_
+5	100	100	NUM	_	_	_	_	_	_
+6	—	—	PUNCT	_	_	_	_	_	_
+7	125	125	NUM	_	_	_	_	_	_
+8	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	_	_	_	_
+10	размах	размах	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+11	крыльев	крыло	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART
+12	155	155	NUM	_	_	_	_	_	_
+13	—	—	PUNCT	_	_	_	_	_	_
+14	200	200	NUM	_	_	_	_	_	_
+15	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s6
+# text = Масса взрослой птицы достигает 4 — 5 кг.
+1	Масса	масса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	взрослой	взрослый	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+3	птицы	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+4	достигает	достигать	VERB	_	Number=Sing	_	_	_	_
+5	4	4	NUM	_	_	_	_	_	_
+6	—	—	PUNCT	_	_	_	_	_	_
+7	5	5	NUM	_	_	_	_	_	_
+8	кг	кг	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s7
+# text = Продолжительность жизни белого аиста в среднем составляет 20 лет.
+1	Продолжительность	продолжительность	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	жизни	жизнь	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+3	белого	белый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+4	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+5	в	в	ADP	_	_	_	_	_	_
+6	среднем	среднее	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	_
+7	составляет	составлять	VERB	_	Number=Sing	_	_	_	_
+8	20	20	NUM	_	_	_	_	_	_
+9	лет	год	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s8
+# text = Внешне на белого аиста похож дальневосточный аист, но в последнее время он считается отдельным видом.
+1	Внешне	внешне	ADV	_	_	_	_	_	_
+2	на	на	ADP	_	_	_	_	_	_
+3	белого	белый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+4	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+5	похож	похожий	ADJ	_	Gender=Masc|Number=Sing	_	_	_	_
+6	дальневосточный	дальневосточный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+7	аист	аист	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	но	но	CCONJ	_	_	_	_	_	_
+10	в	в	ADP	_	_	_	_	_	_
+11	последнее	последний	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+12	время	время	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	считается	считаться	VERB	_	Number=Sing	_	_	_	_
+15	отдельным	отдельный	ADJ	_	Case=Dat|Number=Plur	_	_	_	_
+16	видом	вид	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+17	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s9
+# text = Взрослый белый аист подаёт громкий голос при встрече пары, щёлкая клювом.
+1	Взрослый	взрослый	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+2	белый	белый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+3	аист	аист	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+4	подаёт	подавать	VERB	_	Number=Sing	_	_	_	_
+5	громкий	громкий	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+6	голос	голос	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-VOICE
+7	при	при	ADP	_	_	_	_	_	_
+8	встрече	встреча	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+9	пары	пара	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	щёлкая	щёлкать	VERB	_	_	_	_	_	_
+12	клювом	клюв	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s10
+# text = Птенцы белого аиста пищат и кричат голосами, похожими на мяуканье котят.
+1	Птенцы	птенец	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	_
+2	белого	белый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+3	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+4	пищат	пищать	VERB	_	Number=Plur	_	_	_	_
+5	и	и	CCONJ	_	_	_	_	_	_
+6	кричат	кричать	VERB	_	Number=Plur	_	_	_	_
+7	голосами	голос	NOUN	_	Case=Ins|Gender=Masc|Number=Plur	_	_	_	NER=B-VOICE|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	похожими	похожий	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+10	на	на	ADP	_	_	_	_	_	_
+11	мяуканье	мяуканье	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-VOICE
+12	котят	котёнок	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = white_stork-s11
+# text = Щёлканье клювом на разный манер практически заменило у аиста голосовое общение.
+1	Щёлканье	щёлканье	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-VOICE
+2	клювом	клюв	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+3	на	на	ADP	_	_	_	_	_	_
+4	разный	разный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	манер	манер	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+6	практически	практически	ADV	_	_	_	_	_	_
+7	заменило	заменить	VERB	_	Gender=Neut|Number=Sing	_	_	_	_
+8	у	у	ADP	_	_	_	_	_	_
+9	аиста	аист	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+10	голосовое	голосовой	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+11	общение	общение	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	_	_	_	_
+

@@ -1,0 +1,394 @@
+doc,par,sent,type,text,lemma
+house_sparrow,1,1,SPECIES,Домовый воробей,домовый воробей
+house_sparrow,1,1,SPECIES,Passer domesticus,passer domesticus
+house_sparrow,1,1,TAXON,вид,вид
+house_sparrow,1,1,TAXON,рода,род
+house_sparrow,1,1,TAXON,настоящих воробьёв,настоящий воробей
+house_sparrow,1,1,TAXON,Passer,passer
+house_sparrow,1,1,TAXON,семейства,семейство
+house_sparrow,1,1,TAXON,воробьиных,воробьиный
+house_sparrow,1,1,TAXON,Passeridae,passeridae
+house_sparrow,1,2,TAXON,птиц,птица
+house_sparrow,1,2,VOICE,чириканью,чириканье
+house_sparrow,1,4,COLOR,окраска,окраска
+house_sparrow,1,4,BODY_PART,оперения,оперение
+house_sparrow,1,4,COLOR,коричневато-бурая,коричневато-бурый
+house_sparrow,1,4,COLOR,ржавчинного,ржавчинный
+house_sparrow,1,4,COLOR,цвета,цвет
+house_sparrow,1,4,COLOR,чёрными,чёрный
+house_sparrow,1,4,BODY_PART,пятнами,пятно
+house_sparrow,1,4,COLOR,беловатая,беловатый
+house_sparrow,1,4,COLOR,серая,серый
+house_sparrow,1,5,BODY_PART,Щёки,щека
+house_sparrow,1,5,COLOR,белые,белый
+house_sparrow,1,5,BODY_PART,ушная область,ушной область
+house_sparrow,1,5,COLOR,бледно-серая,бледно-серый
+house_sparrow,1,6,BODY_PART,Крылья,крыло
+house_sparrow,1,6,COLOR,желтовато-белой,желтовато-белый
+house_sparrow,1,6,BODY_PART,полосой,полоса
+house_sparrow,1,7,SEX,Самец,самец
+house_sparrow,1,7,SEX,самки,самка
+house_sparrow,1,7,COLOR,чёрного,чёрный
+house_sparrow,1,7,BODY_PART,пятна,пятно
+house_sparrow,1,7,BODY_PART,подбородок,подбородок
+house_sparrow,1,7,BODY_PART,горло,горло
+house_sparrow,1,7,BODY_PART,зоб,зоб
+house_sparrow,1,7,BODY_PART,груди,грудь
+house_sparrow,1,7,COLOR,тёмно-серым,тёмно-серый
+house_sparrow,1,7,COLOR,тёмно-бурым,тёмно-бурый
+house_sparrow,1,7,BODY_PART,верхом,верх
+house_sparrow,1,7,BODY_PART,головы,голова
+house_sparrow,1,8,SEX,самки,самка
+house_sparrow,1,8,BODY_PART,голова,голова
+house_sparrow,1,8,BODY_PART,горло,горло
+house_sparrow,1,8,COLOR,серые,серый
+house_sparrow,1,8,BODY_PART,глазом,глаз
+house_sparrow,1,8,COLOR,серо-жёлтая,серо-жёлтый
+house_sparrow,1,8,BODY_PART,полоса,полоса
+house_sparrow,1,9,SPECIES,домового воробья,домовый воробей
+house_sparrow,1,9,HABITAT,Северной Европой,северный европа
+great_tit,1,1,SPECIES,Большая синица,большой синица
+great_tit,1,1,SPECIES,большак,большак
+great_tit,1,1,SPECIES,Parus major,parus major
+great_tit,1,1,TAXON,птица,птица
+great_tit,1,1,TAXON,семейства,семейство
+great_tit,1,1,TAXON,синицевых,синицев
+great_tit,1,1,TAXON,отряда,отряд
+great_tit,1,1,TAXON,воробьинообразных,воробьинообразный
+great_tit,1,2,HABITAT,территории,территория
+great_tit,1,2,HABITAT,Европы,европа
+great_tit,1,2,HABITAT,Ближнего Востока,ближний восток
+great_tit,1,2,HABITAT,Северной Азии,северный азия
+great_tit,1,2,HABITAT,Северной Африки,северный африка
+great_tit,1,3,HABITAT,лесах,лес
+great_tit,1,3,HABITAT,опушках,опушка
+great_tit,1,3,HABITAT,берегам,берег
+great_tit,1,3,HABITAT,водоёмов,водоём
+great_tit,1,4,TAXON,птицы,птица
+great_tit,1,4,SPECIES,больших синиц,большой синица
+great_tit,1,5,TAXON,вид,вид
+great_tit,1,5,TAXON,подвидов,подвид
+great_tit,1,6,SPECIES,Большая синица,большой синица
+great_tit,1,6,TAXON,видов,вид
+great_tit,1,6,TAXON,рода,род
+great_tit,1,6,TAXON,синицы,синица
+great_tit,1,6,HABITAT,России,россия
+great_tit,1,7,SPECIES,Синица,синица
+great_tit,1,7,COLOR,чёрной,чёрный
+great_tit,1,7,BODY_PART,головой,голова
+great_tit,1,7,BODY_PART,шеей,шея
+great_tit,1,7,COLOR,белыми,белый
+great_tit,1,7,BODY_PART,щеками,щека
+great_tit,1,7,COLOR,оливковым,оливковый
+great_tit,1,7,BODY_PART,верхом,верх
+great_tit,1,7,COLOR,жёлтым,жёлтый
+great_tit,1,7,BODY_PART,низом,низ
+great_tit,1,7,TAXON,подвидов,подвид
+great_tit,1,8,FOOD,насекомыми,насекомое
+great_tit,1,8,FOOD,беспозвоночными,беспозвоночный
+great_tit,1,9,FOOD,корм,корм
+eurasian_magpie,1,1,SPECIES,Сорока,сорока
+eurasian_magpie,1,1,SPECIES,обыкновенная сорока,обыкновенный сорока
+eurasian_magpie,1,1,SPECIES,европейская сорока,европейский сорока
+eurasian_magpie,1,1,SPECIES,Pica pica,pica pica
+eurasian_magpie,1,1,TAXON,птица,птица
+eurasian_magpie,1,1,TAXON,семейства,семейство
+eurasian_magpie,1,1,TAXON,врановых,врановый
+eurasian_magpie,1,1,TAXON,рода,род
+eurasian_magpie,1,1,TAXON,сорок,сорока
+eurasian_magpie,1,2,TAXON,подвидов,подвид
+eurasian_magpie,1,2,TAXON,подвиды,подвид
+eurasian_magpie,1,2,SPECIES,сороки,сорока
+eurasian_magpie,1,2,TAXON,видов,вид
+eurasian_magpie,1,2,TAXON,подвиды,подвид
+eurasian_magpie,1,3,SPECIES,Сороки,сорока
+eurasian_magpie,1,3,HABITAT,Европу,европа
+eurasian_magpie,1,3,HABITAT,Скандинавии,скандинавия
+eurasian_magpie,1,3,HABITAT,Испании,испания
+eurasian_magpie,1,3,HABITAT,Греции,греция
+eurasian_magpie,1,4,HABITAT,Средиземного моря,средиземный море
+eurasian_magpie,1,5,HABITAT,Марокко,марокко
+eurasian_magpie,1,5,HABITAT,Алжира,алжир
+eurasian_magpie,1,5,HABITAT,Туниса,тунис
+eurasian_magpie,1,5,HABITAT,Африки,африка
+eurasian_magpie,1,6,SPECIES,Сорока,сорока
+eurasian_magpie,1,6,TAXON,птица,птица
+eurasian_magpie,1,6,HABITAT,Скандинавии,скандинавия
+eurasian_magpie,1,7,HABITAT,Европы,европа
+eurasian_magpie,1,7,SPECIES,сорока,сорока
+eurasian_magpie,1,7,HABITAT,Ближнего Востока,ближний восток
+eurasian_magpie,1,7,HABITAT,Турцию,турция
+eurasian_magpie,1,7,HABITAT,Ирана,иран
+eurasian_magpie,1,7,HABITAT,Персидского залива,персидский залив
+eurasian_magpie,1,8,HABITAT,Дальнем Востоке,дальний восток
+eurasian_magpie,1,8,HABITAT,Японского моря,японский море
+hooded_crow,1,1,SPECIES,Серая ворона,серый ворона
+hooded_crow,1,1,SPECIES,Corvus cornix,corvus cornix
+hooded_crow,1,1,TAXON,вид,вид
+hooded_crow,1,1,TAXON,птиц,птица
+hooded_crow,1,1,TAXON,рода,род
+hooded_crow,1,1,TAXON,воронов,воронов
+hooded_crow,1,2,SPECIES,чёрную,чёрный
+hooded_crow,1,2,SPECIES,серую ворону,серый ворона
+hooded_crow,1,2,TAXON,подвиды,подвид
+hooded_crow,1,2,TAXON,вида,вид
+hooded_crow,1,2,SPECIES,чёрную ворону,чёрный ворона
+hooded_crow,1,2,SPECIES,Corvus corone corone,corvus corone corone
+hooded_crow,1,2,SPECIES,серую,серый
+hooded_crow,1,2,SPECIES,Corvus corone cornix,corvus corone cornix
+hooded_crow,1,3,BODY_PART,крыльев,крыло
+hooded_crow,1,4,SPECIES,грача,грач
+hooded_crow,1,4,BODY_PART,клюв,клюв
+hooded_crow,1,4,BODY_PART,крылья,крыло
+hooded_crow,1,5,BODY_PART,Туловище,туловище
+hooded_crow,1,5,COLOR,серое,серый
+hooded_crow,1,5,BODY_PART,голова,голова
+hooded_crow,1,5,BODY_PART,манишка,манишка
+hooded_crow,1,5,BODY_PART,крылья,крыло
+hooded_crow,1,5,BODY_PART,хвост,хвост
+hooded_crow,1,5,COLOR,чёрные,чёрный
+hooded_crow,1,6,BODY_PART,Радужка,радужка
+hooded_crow,1,6,COLOR,тёмная,тёмный
+hooded_crow,1,6,BODY_PART,клюв,клюв
+hooded_crow,1,6,BODY_PART,ноги,нога
+hooded_crow,1,6,COLOR,чёрные,чёрный
+hooded_crow,1,7,TAXON,птицы,птица
+hooded_crow,1,7,COLOR,буроватым,буроватый
+hooded_crow,1,7,COLOR,голубыми,голубой
+hooded_crow,1,7,BODY_PART,глазами,глаз
+hooded_crow,1,7,COLOR,розовой,розовый
+hooded_crow,1,7,BODY_PART,ротовой полостью,ротовой полость
+hooded_crow,1,8,SPECIES,вороны,ворона
+common_blackbird,1,1,SPECIES,Чёрный дрозд,чёрный дрозд
+common_blackbird,1,1,SPECIES,Turdus merula,turdus merula
+common_blackbird,1,1,TAXON,вид,вид
+common_blackbird,1,1,TAXON,птиц,птица
+common_blackbird,1,1,TAXON,рода,род
+common_blackbird,1,1,TAXON,дрозды,дрозд
+common_blackbird,1,1,TAXON,семейства,семейство
+common_blackbird,1,1,TAXON,дроздовых,дроздовый
+common_blackbird,1,3,BODY_PART,Оперение,оперение
+common_blackbird,1,3,SEX,самцов,самец
+common_blackbird,1,3,COLOR,чёрное,чёрный
+common_blackbird,1,3,BODY_PART,клюв,клюв
+common_blackbird,1,3,COLOR,жёлтый,жёлтый
+common_blackbird,1,3,BODY_PART,оперение,оперение
+common_blackbird,1,3,SEX,самок,самка
+common_blackbird,1,3,TAXON,птиц,птица
+common_blackbird,1,3,COLOR,тёмно-коричневое,тёмно-коричневый
+common_blackbird,1,3,COLOR,бурое,бурый
+common_blackbird,1,4,VOICE,Песня,песня
+common_blackbird,1,4,SPECIES,чёрного дрозда,чёрный дрозд
+common_blackbird,1,4,TAXON,птиц,птица
+common_blackbird,1,5,HABITAT,Европе,европа
+common_blackbird,1,5,HABITAT,России,россия
+common_blackbird,1,5,HABITAT,Центральной Азии,центральный азия
+common_blackbird,1,5,HABITAT,Северной Африке,северный африка
+common_blackbird,1,5,HABITAT,Австралии,австралия
+common_blackbird,1,5,HABITAT,Новой Зеландии,новый зеландия
+common_blackbird,1,6,TAXON,подвидов,подвид
+common_blackbird,1,6,TAXON,подвиды,подвид
+common_blackbird,1,6,TAXON,виды,вид
+common_blackbird,1,7,SPECIES,чёрный дрозд,чёрный дрозд
+common_blackbird,1,8,HABITAT,территории,территория
+common_blackbird,1,9,NEST,кладке,кладка
+common_blackbird,1,9,COLOR,голубоватых,голубоватый
+common_blackbird,1,9,NEST,яиц,яйцо
+common_nightingale,1,1,SPECIES,Западный соловей,западный соловей
+common_nightingale,1,1,SPECIES,южный соловей,южный соловей
+common_nightingale,1,1,SPECIES,Luscinia megarhynchos,luscinia megarhynchos
+common_nightingale,1,1,TAXON,вид,вид
+common_nightingale,1,1,TAXON,птиц,птица
+common_nightingale,1,1,TAXON,отряда,отряд
+common_nightingale,1,1,TAXON,воробьинообразных,воробьинообразный
+common_nightingale,1,1,TAXON,Passeriformes,passeriformes
+common_nightingale,1,1,TAXON,семейства,семейство
+common_nightingale,1,1,TAXON,мухоловковых,мухоловков
+common_nightingale,1,1,TAXON,Muscicapidae,muscicapidae
+common_nightingale,1,2,SPECIES,домового воробья,домовый воробей
+common_nightingale,1,2,SPECIES,Passer domesticus,passer domesticus
+common_nightingale,1,3,COLOR,светлые,светлый
+common_nightingale,1,3,COLOR,коричневые тона,коричневый тон
+common_nightingale,1,3,COLOR,серо-желтоватая,серо-желтоватый
+common_nightingale,1,4,BODY_PART,Хвост,хвост
+common_nightingale,1,4,COLOR,красноватым оттенком,красноватый оттенок
+common_nightingale,1,4,BODY_PART,грудь,грудь
+common_nightingale,1,4,BODY_PART,пятен,пятно
+common_nightingale,1,5,BODY_PART,Лапки,лапка
+common_nightingale,1,5,COLOR,жёлто-розового цвета,жёлто-розовый цвет
+common_nightingale,1,6,SPECIES,Западного соловья,западный соловей
+common_nightingale,1,6,SPECIES,восточным соловьём,восточный соловей
+common_nightingale,1,6,SPECIES,Luscinia luscinia,luscinia luscinia
+common_nightingale,1,6,COLOR,цвета,цвет
+common_nightingale,1,7,COLOR,темнее,тёмный
+common_nightingale,1,7,COLOR,серо-коричневым,серо-коричневый
+common_nightingale,1,7,BODY_PART,груди,грудь
+common_nightingale,1,8,TAXON,вида,вид
+common_nightingale,1,9,SPECIES,Западный соловей,западный соловей
+common_nightingale,1,9,FOOD,насекомыми,насекомое
+common_nightingale,1,9,FOOD,личинками,личинка
+common_nightingale,1,9,FOOD,червями,червь
+common_nightingale,1,9,FOOD,гусеницами,гусеница
+common_nightingale,1,9,FOOD,пауками,паук
+common_nightingale,1,9,FOOD,беспозвоночными,беспозвоночный
+barn_swallow,1,1,SPECIES,Деревенская ласточка,деревенский ласточка
+barn_swallow,1,1,SPECIES,ласточка-касатка,ласточка-касатка
+barn_swallow,1,1,SPECIES,Hirundo rustica,hirundo rustica
+barn_swallow,1,1,TAXON,птица,птица
+barn_swallow,1,1,TAXON,рода,род
+barn_swallow,1,1,TAXON,настоящие ласточки,настоящий ласточка
+barn_swallow,1,1,TAXON,Hirundo,hirundo
+barn_swallow,1,1,HABITAT,Европе,европа
+barn_swallow,1,1,HABITAT,Азии,азия
+barn_swallow,1,1,HABITAT,Африке,африка
+barn_swallow,1,1,HABITAT,Америке,америка
+barn_swallow,1,2,TAXON,рода,род
+barn_swallow,1,2,BODY_PART,хвостом,хвост
+barn_swallow,1,2,BODY_PART,крыльями,крыло
+barn_swallow,1,3,TAXON,птица,птица
+barn_swallow,1,3,BODY_PART,крыльев,крыло
+barn_swallow,1,4,TAXON,птицы,птица
+barn_swallow,1,5,COLOR,Окраска,окраска
+barn_swallow,1,5,COLOR,сине-чёрная,сине-чёрный
+barn_swallow,1,5,COLOR,бледно-бежевая,бледно-бежевый
+barn_swallow,1,6,BODY_PART,лбу,лоб
+barn_swallow,1,6,BODY_PART,шеи,шея
+barn_swallow,1,6,COLOR,светло-коричневые,светло-коричневый
+barn_swallow,1,6,BODY_PART,пятна,пятно
+barn_swallow,1,7,BODY_PART,Хвост,хвост
+barn_swallow,1,8,SEX,Самцы,самец
+barn_swallow,1,8,SEX,самки,самка
+barn_swallow,1,8,SEX,самки,самка
+barn_swallow,1,8,BODY_PART,хвост,хвост
+barn_swallow,1,9,VOICE,Пение,пение
+barn_swallow,1,9,SPECIES,деревенских ласточек,деревенский ласточка
+barn_swallow,1,9,VOICE,щебет,щебет
+barn_swallow,1,9,VOICE,трелью,трель
+barn_swallow,1,10,SPECIES,Деревенские ласточки,деревенский ласточка
+barn_swallow,1,10,HABITAT,Австралии,австралия
+barn_swallow,1,10,HABITAT,Антарктиды,антарктида
+barn_swallow,1,11,HABITAT,Южной Америке,южный америка
+barn_swallow,1,11,HABITAT,Южной Азии,южный азия
+barn_swallow,1,11,HABITAT,Индонезии,индонезия
+barn_swallow,1,11,HABITAT,Микронезии,микронезия
+common_cuckoo,1,1,SPECIES,Обыкновенная кукушка,обыкновенный кукушка
+common_cuckoo,1,1,SPECIES,Cuculus canorus,cuculus canorus
+common_cuckoo,1,1,TAXON,птица,птица
+common_cuckoo,1,1,TAXON,вид,вид
+common_cuckoo,1,1,TAXON,семействе,семейство
+common_cuckoo,1,1,TAXON,кукушковых,кукушковый
+common_cuckoo,1,2,TAXON,вида,вид
+common_cuckoo,1,2,TAXON,Cuculus,cuculus
+common_cuckoo,1,2,TAXON,кукушка,кукушка
+common_cuckoo,1,3,TAXON,семейство,семейство
+common_cuckoo,1,3,TAXON,кукушек,кукушка
+common_cuckoo,1,3,TAXON,рода,род
+common_cuckoo,1,3,VOICE,звукоподражания,звукоподражание
+common_cuckoo,1,3,VOICE,крика,крик
+common_cuckoo,1,3,SEX,самца,самец
+common_cuckoo,1,3,SPECIES,обыкновенной кукушки,обыкновенный кукушка
+common_cuckoo,1,4,TAXON,подвида,подвид
+common_cuckoo,1,4,TAXON,вида,вид
+common_cuckoo,1,4,SPECIES,С . с . canorus,с . с . canorus
+common_cuckoo,1,4,TAXON,подвид,подвид
+common_cuckoo,1,5,HABITAT,Британских островов,британский остров
+common_cuckoo,1,5,HABITAT,Скандинавию,скандинавия
+common_cuckoo,1,5,HABITAT,России,россия
+common_cuckoo,1,5,HABITAT,Сибири,сибирь
+common_cuckoo,1,5,HABITAT,Японии,япония
+common_cuckoo,1,5,HABITAT,Пиренеев,пиренеи
+common_cuckoo,1,5,HABITAT,Турцию,турция
+common_cuckoo,1,5,HABITAT,Казахстан,казахстан
+common_cuckoo,1,5,HABITAT,Монголию,монголия
+common_cuckoo,1,5,HABITAT,Китая,китай
+common_cuckoo,1,5,HABITAT,Кореи,корея
+common_cuckoo,1,6,HABITAT,Африке,африка
+common_cuckoo,1,6,HABITAT,Южной Азии,южный азия
+common_cuckoo,1,7,SPECIES,С . c . bakeri,с . c . bakeri
+common_cuckoo,1,7,HABITAT,Китая,китай
+common_cuckoo,1,7,HABITAT,Гималаев,гималаи
+common_cuckoo,1,7,HABITAT,Индии,индия
+common_cuckoo,1,7,HABITAT,Непала,непал
+common_cuckoo,1,7,HABITAT,Мьянмы,мьянма
+common_cuckoo,1,7,HABITAT,Таиланда,таиланд
+common_cuckoo,1,7,HABITAT,Южного Китая,южный китай
+white_stork,1,1,SPECIES,Белый аист,белый аист
+white_stork,1,1,SPECIES,Ciconia ciconia,ciconia ciconia
+white_stork,1,1,TAXON,вид,вид
+white_stork,1,1,TAXON,птиц,птица
+white_stork,1,1,TAXON,семейства,семейство
+white_stork,1,1,TAXON,аистовых,аистовый
+white_stork,1,2,SPECIES,Белый аист,белый аист
+white_stork,1,2,COLOR,белая,белый
+white_stork,1,2,TAXON,птица,птица
+white_stork,1,2,COLOR,чёрными,чёрный
+white_stork,1,2,BODY_PART,крыльев,крыло
+white_stork,1,2,BODY_PART,шеей,шея
+white_stork,1,2,COLOR,красным,красный
+white_stork,1,2,BODY_PART,клювом,клюв
+white_stork,1,2,COLOR,красноватыми,красноватый
+white_stork,1,2,BODY_PART,ногами,нога
+white_stork,1,3,BODY_PART,крылья,крыло
+white_stork,1,3,SPECIES,аиста,аист
+white_stork,1,3,SPECIES,аиста,аист
+white_stork,1,3,COLOR,чёрная,чёрный
+white_stork,1,4,SEX,Самки,самка
+white_stork,1,4,SEX,самцов,самец
+white_stork,1,5,SPECIES,белого аиста,белый аист
+white_stork,1,5,BODY_PART,крыльев,крыло
+white_stork,1,6,TAXON,птицы,птица
+white_stork,1,7,SPECIES,белого аиста,белый аист
+white_stork,1,8,SPECIES,белого аиста,белый аист
+white_stork,1,8,SPECIES,дальневосточный аист,дальневосточный аист
+white_stork,1,8,TAXON,видом,вид
+white_stork,1,9,SPECIES,белый аист,белый аист
+white_stork,1,9,VOICE,голос,голос
+white_stork,1,9,BODY_PART,клювом,клюв
+white_stork,1,10,SPECIES,белого аиста,белый аист
+white_stork,1,10,VOICE,голосами,голос
+white_stork,1,10,VOICE,мяуканье,мяуканье
+white_stork,1,11,VOICE,Щёлканье,щёлканье
+white_stork,1,11,BODY_PART,клювом,клюв
+white_stork,1,11,SPECIES,аиста,аист
+mallard,1,1,SPECIES,Кряква,кряква
+mallard,1,1,SPECIES,Anas platyrhynchos,anas platyrhynchos
+mallard,1,1,TAXON,птица,птица
+mallard,1,1,TAXON,семейства,семейство
+mallard,1,1,TAXON,утиных,утиный
+mallard,1,1,TAXON,Anatidae,anatidae
+mallard,1,1,TAXON,отряда,отряд
+mallard,1,1,TAXON,гусеобразных,гусеобразный
+mallard,1,1,TAXON,Anseriformes,anseriformes
+mallard,1,2,TAXON,утка,утка
+mallard,1,3,SEX,самца,самец
+mallard,1,3,SEX,самки,самка
+mallard,1,3,TAXON,птица,птица
+mallard,1,4,BODY_PART,Голова,голова
+mallard,1,4,BODY_PART,шея,шея
+mallard,1,4,SEX,самца,самец
+mallard,1,4,COLOR,зелёные,зелёный
+mallard,1,4,BODY_PART,зоб,зоб
+mallard,1,4,BODY_PART,грудь,грудь
+mallard,1,4,COLOR,коричнево-бурые,коричнево-бурый
+mallard,1,4,BODY_PART,спина,спина
+mallard,1,4,COLOR,серого,серый
+mallard,1,4,COLOR,цвета,цвет
+mallard,1,4,BODY_PART,пятнышками,пятнышко
+mallard,1,5,COLOR,Окраска,окраска
+mallard,1,5,SEX,самки,самка
+mallard,1,5,COLOR,бурая,бурый
+mallard,1,5,COLOR,тёмными,тёмный
+mallard,1,5,BODY_PART,пятнышками,пятнышко
+mallard,1,5,COLOR,буровато-серая,буровато-серый
+mallard,1,6,BODY_PART,крыле,крыло
+mallard,1,6,SEX,самца,самец
+mallard,1,6,SEX,самки,самка
+mallard,1,6,COLOR,сине-фиолетовое,сине-фиолетовый
+mallard,1,6,BODY_PART,зеркало,зеркало
+mallard,1,7,TAXON,птица,птица
+mallard,1,8,HABITAT,водоёмы,водоём
+mallard,1,9,TAXON,птицы,птица
+mallard,1,9,HABITAT,водоёмах,водоём
+mallard,1,9,HABITAT,городах,город
+mallard,1,9,HABITAT,окрестностях,окрестность
+mallard,1,10,SPECIES,Кряква,кряква

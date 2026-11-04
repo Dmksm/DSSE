@@ -1,0 +1,188 @@
+# newdoc id = mallard
+# species = Anas platyrhynchos
+# newpar id = mallard-p1
+# sent_id = mallard-s1
+# text = Кряква (лат. Anas platyrhynchos) — птица из семейства утиных (Anatidae) отряда гусеобразных (Anseriformes).
+1	Кряква	кряква	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	(	(	PUNCT	_	_	_	_	_	_
+3	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	_	_	_	_
+5	Anas	anas	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+6	platyrhynchos	platyrhynchos	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+7	)	)	PUNCT	_	_	_	_	_	_
+8	—	—	PUNCT	_	_	_	_	_	_
+9	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON
+10	из	из	ADP	_	_	_	_	_	_
+11	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+12	утиных	утиный	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+13	(	(	PUNCT	_	_	_	_	_	_
+14	Anatidae	anatidae	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+15	)	)	PUNCT	_	_	_	_	_	_
+16	отряда	отряд	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+17	гусеобразных	гусеобразный	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON
+18	(	(	PUNCT	_	_	_	_	_	_
+19	Anseriformes	anseriformes	X	_	Foreign=Yes	_	_	_	NER=B-TAXON|SpaceAfter=No
+20	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s2
+# text = Наиболее известная и распространённая дикая утка.
+1	Наиболее	наиболее	ADV	_	_	_	_	_	_
+2	известная	известный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	и	и	CCONJ	_	_	_	_	_	_
+4	распространённая	распространённый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+5	дикая	дикий	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+6	утка	утка	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s3
+# text = Длина тела самца около 62 см, самки — около 57 см, масса достигает 1 — 1,5 кг (осенью, когда птица откормится перед самым перелётом, её вес может достигать 2 кг).
+1	Длина	длина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+3	самца	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SEX
+4	около	около	ADP	_	_	_	_	_	_
+5	62	62	NUM	_	_	_	_	_	_
+6	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+9	—	—	PUNCT	_	_	_	_	_	_
+10	около	около	ADP	_	_	_	_	_	_
+11	57	57	NUM	_	_	_	_	_	_
+12	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	_	_	_	_
+14	масса	масса	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+15	достигает	достигать	VERB	_	Number=Sing	_	_	_	_
+16	1	1	NUM	_	_	_	_	_	_
+17	—	—	PUNCT	_	_	_	_	_	_
+18	1,5	1,5	NUM	_	_	_	_	_	_
+19	кг	кг	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+20	(	(	PUNCT	_	_	_	_	_	_
+21	осенью	осень	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	_	_	_	_
+23	когда	когда	CCONJ	_	_	_	_	_	_
+24	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON
+25	откормится	откормиться	VERB	_	Number=Sing	_	_	_	_
+26	перед	перед	ADP	_	_	_	_	_	_
+27	самым	самый	ADJ	_	Case=Ins|Gender=Neut|Number=Sing	_	_	_	_
+28	перелётом	перелёт	NOUN	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	_	_	_	_
+30	её	она	PRON	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+31	вес	вес	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	_
+32	может	мочь	VERB	_	Number=Sing	_	_	_	_
+33	достигать	достигать	VERB	_	_	_	_	_	_
+34	2	2	NUM	_	_	_	_	_	_
+35	кг	кг	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	_	_	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s4
+# text = Голова и шея самца зелёные, зоб и грудь коричнево-бурые, спина и брюшная сторона тела серого цвета с тонкими поперечными пятнышками.
+1	Голова	голова	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+2	и	и	CCONJ	_	_	_	_	_	_
+3	шея	шея	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+4	самца	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SEX
+5	зелёные	зелёный	ADJ	_	Case=Nom|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	зоб	зоб	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+8	и	и	CCONJ	_	_	_	_	_	_
+9	грудь	грудь	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+10	коричнево-бурые	коричнево-бурый	ADJ	_	Case=Acc|Number=Plur	_	_	_	NER=B-COLOR|SpaceAfter=No
+11	,	,	PUNCT	_	_	_	_	_	_
+12	спина	спина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-BODY_PART
+13	и	и	CCONJ	_	_	_	_	_	_
+14	брюшная	брюшной	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+15	сторона	сторона	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+16	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+17	серого	серый	ADJ	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+18	цвета	цвет	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR
+19	с	с	ADP	_	_	_	_	_	_
+20	тонкими	тонкий	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+21	поперечными	поперечный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+22	пятнышками	пятнышко	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+23	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s5
+# text = Окраска самки бурая с более тёмными пятнышками, брюшная сторона буровато-серая с продольными пестринами.
+1	Окраска	окраска	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+2	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+3	бурая	бурый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+4	с	с	ADP	_	_	_	_	_	_
+5	более	более	ADV	_	_	_	_	_	_
+6	тёмными	тёмный	ADJ	_	Case=Ins|Number=Plur	_	_	_	NER=B-COLOR
+7	пятнышками	пятнышко	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	брюшная	брюшной	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+10	сторона	сторона	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+11	буровато-серая	буровато-серый	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-COLOR
+12	с	с	ADP	_	_	_	_	_	_
+13	продольными	продольный	ADJ	_	Case=Ins|Number=Plur	_	_	_	_
+14	пестринами	пестрина	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s6
+# text = На крыле у самца и самки сине-фиолетовое «зеркало».
+1	На	на	ADP	_	_	_	_	_	_
+2	крыле	крыло	NOUN	_	Case=Loc|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+3	у	у	ADP	_	_	_	_	_	_
+4	самца	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-SEX
+5	и	и	CCONJ	_	_	_	_	_	_
+6	самки	самка	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+7	сине-фиолетовое	сине-фиолетовый	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR
+8	«	«	PUNCT	_	_	_	_	_	_
+9	зеркало	зеркало	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART|SpaceAfter=No
+10	»	»	PUNCT	_	_	_	_	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s7
+# text = Частично перелётная птица.
+1	Частично	частично	ADV	_	_	_	_	_	_
+2	перелётная	перелётный	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+3	птица	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-TAXON|SpaceAfter=No
+4	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s8
+# text = Населяет пресные и слегка солоноватые водоёмы.
+1	Населяет	населять	VERB	_	Number=Sing	_	_	_	_
+2	пресные	пресный	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+3	и	и	CCONJ	_	_	_	_	_	_
+4	слегка	слегка	ADV	_	_	_	_	_	_
+5	солоноватые	солоноватый	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+6	водоёмы	водоём	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT|SpaceAfter=No
+7	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s9
+# text = В последние годы многие птицы зимуют на незамерзающих водоёмах в крупных городах и их окрестностях.
+1	В	в	ADP	_	_	_	_	_	_
+2	последние	последний	ADJ	_	Case=Acc|Number=Plur	_	_	_	_
+3	годы	год	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	_	_	_	_
+4	многие	многие	PRON	_	Case=Nom|Number=Plur	_	_	_	_
+5	птицы	птица	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+6	зимуют	зимовать	VERB	_	Number=Plur	_	_	_	_
+7	на	на	ADP	_	_	_	_	_	_
+8	незамерзающих	незамерзающий	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+9	водоёмах	водоём	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT
+10	в	в	ADP	_	_	_	_	_	_
+11	крупных	крупный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+12	городах	город	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	NER=B-HABITAT
+13	и	и	CCONJ	_	_	_	_	_	_
+14	их	они	PRON	_	Case=Acc|Number=Plur	_	_	_	_
+15	окрестностях	окрестность	NOUN	_	Case=Loc|Gender=Fem|Number=Plur	_	_	_	NER=B-HABITAT|SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = mallard-s10
+# text = Кряква является одним из основных объектов спортивной, а местами — промысловой охоты.
+1	Кряква	кряква	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-SPECIES
+2	является	являться	VERB	_	Number=Sing	_	_	_	_
+3	одним	один	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+4	из	из	ADP	_	_	_	_	_	_
+5	основных	основный	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+6	объектов	объект	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+7	спортивной	спортивный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	а	а	CCONJ	_	_	_	_	_	_
+10	местами	место	NOUN	_	Case=Ins|Gender=Neut|Number=Plur	_	_	_	_
+11	—	—	PUNCT	_	_	_	_	_	_
+12	промысловой	промысловый	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+13	охоты	охота	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	_	_	_	_
+

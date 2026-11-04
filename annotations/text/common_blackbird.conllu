@@ -1,0 +1,178 @@
+# newdoc id = common_blackbird
+# species = Turdus merula
+# newpar id = common_blackbird-p1
+# sent_id = common_blackbird-s1
+# text = Чёрный дрозд (лат. Turdus merula) — вид птиц рода дрозды семейства дроздовых.
+1	Чёрный	чёрный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+2	дрозд	дрозд	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+3	(	(	PUNCT	_	_	_	_	_	_
+4	лат	лат	X	_	_	_	_	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	_	_	_	_
+6	Turdus	turdus	X	_	Foreign=Yes	_	_	_	NER=B-SPECIES
+7	merula	merula	X	_	Foreign=Yes	_	_	_	NER=I-SPECIES|SpaceAfter=No
+8	)	)	PUNCT	_	_	_	_	_	_
+9	—	—	PUNCT	_	_	_	_	_	_
+10	вид	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+11	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+12	рода	род	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=B-TAXON
+13	дрозды	дрозд	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON
+14	семейства	семейство	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-TAXON
+15	дроздовых	дроздовый	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s2
+# text = Длина тела около 25 см.
+1	Длина	длина	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+2	тела	тело	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+3	около	около	ADP	_	_	_	_	_	_
+4	25	25	NUM	_	_	_	_	_	_
+5	см	см	NOUN	_	Number=Sing	_	_	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s3
+# text = Оперение у самцов однотонное чёрное, блестящее, клюв жёлтый; оперение самок и молодых птиц большей частью тёмно-коричневое либо бурое.
+1	Оперение	оперение	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+2	у	у	ADP	_	_	_	_	_	_
+3	самцов	самец	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-SEX
+4	однотонное	однотонный	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	_
+5	чёрное	чёрный	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+6	,	,	PUNCT	_	_	_	_	_	_
+7	блестящее	блестящий	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	_	_	_	_
+9	клюв	клюв	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-BODY_PART
+10	жёлтый	жёлтый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+11	;	;	PUNCT	_	_	_	_	_	_
+12	оперение	оперение	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-BODY_PART
+13	самок	самка	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-SEX
+14	и	и	CCONJ	_	_	_	_	_	_
+15	молодых	молодой	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+16	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON
+17	большей	больший	ADJ	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
+18	частью	часть	NOUN	_	Case=Ins|Gender=Fem|Number=Sing	_	_	_	_
+19	тёмно-коричневое	тёмно-коричневый	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR
+20	либо	либо	CCONJ	_	_	_	_	_	_
+21	бурое	бурый	ADJ	_	Case=Nom|Gender=Neut|Number=Sing	_	_	_	NER=B-COLOR|SpaceAfter=No
+22	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s4
+# text = Песня чёрного дрозда разнообразна и мелодична; он считается одним из лучших певцов среди птиц.
+1	Песня	песня	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	NER=B-VOICE
+2	чёрного	чёрный	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	NER=B-SPECIES
+3	дрозда	дрозд	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+4	разнообразна	разнообразный	ADJ	_	Gender=Fem|Number=Sing	_	_	_	_
+5	и	и	CCONJ	_	_	_	_	_	_
+6	мелодична	мелодичный	ADJ	_	Gender=Fem|Number=Sing	_	_	_	SpaceAfter=No
+7	;	;	PUNCT	_	_	_	_	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+9	считается	считаться	VERB	_	Number=Sing	_	_	_	_
+10	одним	один	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	_
+11	из	из	ADP	_	_	_	_	_	_
+12	лучших	хороший	ADJ	_	Case=Gen|Number=Plur	_	_	_	_
+13	певцов	певец	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	_
+14	среди	среди	ADP	_	_	_	_	_	_
+15	птиц	птица	NOUN	_	Case=Gen|Gender=Fem|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+16	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s5
+# text = Широко распространён в Европе, включая европейскую часть России, частично в Передней и Центральной Азии и Северной Африке, а также интродуцирован в Австралии и Новой Зеландии.
+1	Широко	широко	ADV	_	_	_	_	_	_
+2	распространён	распространить	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+3	в	в	ADP	_	_	_	_	_	_
+4	Европе	европа	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+5	,	,	PUNCT	_	_	_	_	_	_
+6	включая	включая	ADP	_	_	_	_	_	_
+7	европейскую	европейский	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	_	_	_	_
+8	часть	часть	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	_	_	_	_
+9	России	россия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT|SpaceAfter=No
+10	,	,	PUNCT	_	_	_	_	_	_
+11	частично	частично	ADV	_	_	_	_	_	_
+12	в	в	ADP	_	_	_	_	_	_
+13	Передней	передний	ADJ	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+14	и	и	CCONJ	_	_	_	_	_	_
+15	Центральной	центральный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+16	Азии	азия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT
+17	и	и	CCONJ	_	_	_	_	_	_
+18	Северной	северный	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+19	Африке	африка	PROPN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+20	,	,	PUNCT	_	_	_	_	_	_
+21	а	а	CCONJ	_	_	_	_	_	_
+22	также	также	PART	_	_	_	_	_	_
+23	интродуцирован	интродуцировать	VERB	_	Gender=Masc|Number=Sing	_	_	_	_
+24	в	в	ADP	_	_	_	_	_	_
+25	Австралии	австралия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+26	и	и	CCONJ	_	_	_	_	_	_
+27	Новой	новый	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+28	Зеландии	зеландия	PROPN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	NER=I-HABITAT|SpaceAfter=No
+29	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s6
+# text = В пределах своего широкого ареала образует несколько подвидов; некоторые азиатские подвиды ныне рассматриваются как самостоятельные виды.
+1	В	в	ADP	_	_	_	_	_	_
+2	пределах	предел	NOUN	_	Case=Loc|Gender=Masc|Number=Plur	_	_	_	_
+3	своего	свой	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+4	широкого	широкий	ADJ	_	Case=Gen|Gender=Neut|Number=Sing	_	_	_	_
+5	ареала	ареал	NOUN	_	Case=Gen|Gender=Masc|Number=Sing	_	_	_	_
+6	образует	образовать	VERB	_	Number=Sing	_	_	_	_
+7	несколько	несколько	ADV	_	_	_	_	_	_
+8	подвидов	подвид	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+9	;	;	PUNCT	_	_	_	_	_	_
+10	некоторые	некоторый	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+11	азиатские	азиатский	ADJ	_	Case=Nom|Number=Plur	_	_	_	_
+12	подвиды	подвид	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON
+13	ныне	ныне	ADV	_	_	_	_	_	_
+14	рассматриваются	рассматриваться	VERB	_	Number=Plur	_	_	_	_
+15	как	как	CCONJ	_	_	_	_	_	_
+16	самостоятельные	самостоятельный	ADJ	_	Case=Acc|Number=Plur	_	_	_	_
+17	виды	вид	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	_	_	_	NER=B-TAXON|SpaceAfter=No
+18	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s7
+# text = В зависимости от широты местности чёрный дрозд может быть оседлым, кочующим или перелётным.
+1	В	в	ADP	_	_	_	_	_	_
+2	зависимости	зависимость	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	_
+3	от	от	ADP	_	_	_	_	_	_
+4	широты	широта	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+5	местности	местность	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+6	чёрный	чёрный	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=B-SPECIES
+7	дрозд	дрозд	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	NER=I-SPECIES
+8	может	мочь	VERB	_	Number=Sing	_	_	_	_
+9	быть	быть	VERB	_	_	_	_	_	_
+10	оседлым	оседлый	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	_	_	_	_
+12	кочующим	кочевать	VERB	_	Case=Dat|Number=Plur	_	_	_	_
+13	или	или	CCONJ	_	_	_	_	_	_
+14	перелётным	перелётный	ADJ	_	Case=Ins|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s8
+# text = Там, где климат достаточно мягкий, пары остаются на своей территории круглый год.
+1	Там	там	ADV	_	_	_	_	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	_	_	_	_
+3	где	где	ADV	_	_	_	_	_	_
+4	климат	климат	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+5	достаточно	достаточно	ADV	_	_	_	_	_	_
+6	мягкий	мягкий	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	_	_	_	_
+8	пары	пара	NOUN	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+9	остаются	оставаться	VERB	_	Number=Plur	_	_	_	_
+10	на	на	ADP	_	_	_	_	_	_
+11	своей	свой	ADJ	_	Case=Gen|Gender=Fem|Number=Sing	_	_	_	_
+12	территории	территория	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-HABITAT
+13	круглый	круглый	ADJ	_	Case=Nom|Gender=Masc|Number=Sing	_	_	_	_
+14	год	год	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	_	_	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	_	_	_	_
+
+# sent_id = common_blackbird-s9
+# text = В кладке обычно 4 - 7 голубоватых с крапинками яиц.
+1	В	в	ADP	_	_	_	_	_	_
+2	кладке	кладка	NOUN	_	Case=Loc|Gender=Fem|Number=Sing	_	_	_	NER=B-NEST
+3	обычно	обычно	ADV	_	_	_	_	_	_
+4	4	4	NUM	_	_	_	_	_	_
+5	-	-	PUNCT	_	_	_	_	_	_
+6	7	7	NUM	_	_	_	_	_	_
+7	голубоватых	голубоватый	ADJ	_	Case=Gen|Number=Plur	_	_	_	NER=B-COLOR
+8	с	с	ADP	_	_	_	_	_	_
+9	крапинками	крапинка	NOUN	_	Case=Ins|Gender=Fem|Number=Plur	_	_	_	_
+10	яиц	яйцо	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	_	_	_	NER=B-NEST|SpaceAfter=No
+11	.	.	PUNCT	_	_	_	_	_	_
+

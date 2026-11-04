@@ -1,0 +1,572 @@
+[
+ {
+  "name": "house_sparrow",
+  "color": "#e6194b",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "great_tit",
+  "color": "#3cb44b",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "eurasian_magpie",
+  "color": "#ffe119",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "hooded_crow",
+  "color": "#4363d8",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "common_blackbird",
+  "color": "#f58231",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "common_nightingale",
+  "color": "#911eb4",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "barn_swallow",
+  "color": "#46f0f0",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "common_cuckoo",
+  "color": "#f032e6",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "white_stork",
+  "color": "#bcf60c",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ },
+ {
+  "name": "mallard",
+  "color": "#008080",
+  "type": "rectangle",
+  "attributes": [
+   {
+    "name": "sex",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "male",
+     "female",
+     "unknown"
+    ]
+   },
+   {
+    "name": "age",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "adult",
+     "juvenile",
+     "unknown"
+    ]
+   },
+   {
+    "name": "pose",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "perched",
+     "flying",
+     "swimming",
+     "standing",
+     "unknown"
+    ]
+   },
+   {
+    "name": "plumage_main",
+    "input_type": "select",
+    "mutable": false,
+    "default_value": "unknown",
+    "values": [
+     "gray",
+     "brown",
+     "black",
+     "white",
+     "black_white",
+     "multicolor",
+     "unknown"
+    ]
+   }
+  ]
+ }
+]
