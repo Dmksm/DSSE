@@ -1,0 +1,61 @@
+file,modality,species,source_url,license,author,lang
+data/images/house_sparrow/house_sparrow_01.jpg,image,house_sparrow,https://commons.wikimedia.org/wiki/File:House_sparrow_male_in_Prospect_Park_(53532).jpg,CC BY-SA 4.0,Rhododendrites,
+data/images/house_sparrow/house_sparrow_02.jpg,image,house_sparrow,"https://commons.wikimedia.org/wiki/File:House_Sparrow,_England_-_May_09.jpg",CC BY-SA 3.0,Diliff,
+data/images/house_sparrow/house_sparrow_03.jpg,image,house_sparrow,"https://commons.wikimedia.org/wiki/File:Passer_domesticus_(female),_Geneve,_Switzerland.jpg",CC BY-SA 4.0,Terragio67,
+data/audio/house_sparrow/house_sparrow_01.mp3,audio,house_sparrow,https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_House_Sparrow_XC543237.mp3,CC BY-SA 4.0,Benoît Van Hecke,
+data/audio/house_sparrow/house_sparrow_02.ogg,audio,house_sparrow,https://commons.wikimedia.org/wiki/File:Passer_domesticus_-_House_Sparrow_-_XC86749.ogg,CC BY-SA 3.0,Jonathon Jongsma,
+data/images/great_tit/great_tit_01.jpg,image,great_tit,"https://commons.wikimedia.org/wiki/File:Great_tit_(Parus_major),_Parc_de_Woluw%C3%A9,_Brussels_(13042792905).jpg",CC BY 2.0,"Frank Vassen from Brussels, Belgium",
+data/images/great_tit/great_tit_02.jpg,image,great_tit,https://commons.wikimedia.org/wiki/File:Great_Tit_(Parus_major)_1.jpg,CC BY-SA 2.5,Darkone,
+data/images/great_tit/great_tit_03.jpg,image,great_tit,https://commons.wikimedia.org/wiki/File:029_Great_tit_standing_on_flowering_Wisteria_in_Gl%C3%A2ne_District_Photo_by_Giles_Laurent.jpg,CC BY-SA 4.0,Giles Laurent,
+data/audio/great_tit/great_tit_01.mp3,audio,great_tit,https://commons.wikimedia.org/wiki/File:Parus_major_-_Great_Tit_XC165660.mp3,CC BY-SA 3.0,José Carlos Sires,
+data/audio/great_tit/great_tit_02.ogg,audio,great_tit,https://commons.wikimedia.org/wiki/File:Parus_major_-_Great_Tit_XC129643.ogg,CC BY-SA 3.0,Gavin Vella,
+data/images/eurasian_magpie/eurasian_magpie_01.jpg,image,eurasian_magpie,https://commons.wikimedia.org/wiki/File:Eurasian_magpie_2024_03_03_02.jpg,CC BY 4.0,Alexis Lours,
+data/images/eurasian_magpie/eurasian_magpie_02.jpg,image,eurasian_magpie,"https://commons.wikimedia.org/wiki/File:P._pica,_Krefeld_(DE)_--_2023_--_0653.jpg",FAL,Anil Öztas,
+data/images/eurasian_magpie/eurasian_magpie_03.jpg,image,eurasian_magpie,https://commons.wikimedia.org/wiki/File:Pica_pica_perched_on_branch_2.jpg,CC BY-SA 2.0,Magnus Hagdorn,
+data/audio/eurasian_magpie/eurasian_magpie_01.mp3,audio,eurasian_magpie,https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC551758.mp3,CC BY-SA 4.0,Benjamin Mayer,
+data/audio/eurasian_magpie/eurasian_magpie_02.mp3,audio,eurasian_magpie,https://commons.wikimedia.org/wiki/File:Pica_pica_-_Eurasian_Magpie_XC478076.mp3,CC BY-SA 4.0,Marie-Lan Taÿ Pamart,
+data/images/hooded_crow/hooded_crow_01.jpg,image,hooded_crow,https://commons.wikimedia.org/wiki/File:Corvus_cornix_(33515567265).jpg,CC BY 2.0,"Donald Hobern from Copenhagen, Denmark",
+data/images/hooded_crow/hooded_crow_02.jpg,image,hooded_crow,https://commons.wikimedia.org/wiki/File:Flying_Crow.jpg,CC BY-SA 3.0,Self,
+data/images/hooded_crow/hooded_crow_03.jpg,image,hooded_crow,https://commons.wikimedia.org/wiki/File:Corvus_cornix_in_Locarno.jpg,CC BY-SA 4.0,Commonists,
+data/audio/hooded_crow/hooded_crow_01.mp3,audio,hooded_crow,https://commons.wikimedia.org/wiki/File:Corvus_cornix_-_Hooded_Crow_XC347296.mp3,CC BY-SA 4.0,Kaveh Jamali,
+data/audio/hooded_crow/hooded_crow_02.ogg,audio,hooded_crow,https://commons.wikimedia.org/wiki/File:Corvus_cornix.ogg,Public domain,Oona Räisänen (Mysid),
+data/images/common_blackbird/common_blackbird_01.jpg,image,common_blackbird,https://commons.wikimedia.org/wiki/File:20190722_Turdus_Merula_02.jpg,CC BY-SA 4.0,Kahvilokki,
+data/images/common_blackbird/common_blackbird_02.jpg,image,common_blackbird,https://commons.wikimedia.org/wiki/File:Common_Blackbird.jpg,CC BY-SA 2.5,Andreas Trepte,
+data/images/common_blackbird/common_blackbird_03.jpg,image,common_blackbird,https://commons.wikimedia.org/wiki/File:Common_Blackbird_(Turdus_merula_mauritanicus)_female.jpg,CC BY-SA 4.0,Charles J. Sharp,
+data/audio/common_blackbird/common_blackbird_01.mp3,audio,common_blackbird,https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC310893.mp3,CC BY-SA 4.0,Alexander Kürthy,
+data/audio/common_blackbird/common_blackbird_02.mp3,audio,common_blackbird,https://commons.wikimedia.org/wiki/File:Turdus_merula_-_Common_Blackbird_XC442745.mp3,CC BY-SA 4.0,James Ray,
+data/images/common_nightingale/common_nightingale_01.jpg,image,common_nightingale,https://commons.wikimedia.org/wiki/File:Nachtigall_(Luscinia_megarhynchos)-2.jpg,CC BY-SA 3.0,J. Dietrich; Bogbumper,
+data/images/common_nightingale/common_nightingale_02.jpg,image,common_nightingale,https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_by_Jan_Ebr_%26_Ivana_Ebrov%C3%A1.jpg,CC BY 4.0,Jan Ebr & Ivana Ebrová,
+data/images/common_nightingale/common_nightingale_03.jpg,image,common_nightingale,https://commons.wikimedia.org/wiki/File:Nightingale_by_Christoph_Moning.jpg,CC BY 4.0,Christoph Moning,
+data/audio/common_nightingale/common_nightingale_01.mp3,audio,common_nightingale,https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_-_Common_Nightingale_XC138451.mp3,CC BY-SA 4.0,Sander Pieterse,
+data/audio/common_nightingale/common_nightingale_02.mp3,audio,common_nightingale,https://commons.wikimedia.org/wiki/File:Luscinia_megarhynchos_-_Common_Nightingale_XC546171.mp3,CC BY-SA 4.0,Benoît Van Hecke,
+data/images/barn_swallow/barn_swallow_01.jpg,image,barn_swallow,https://commons.wikimedia.org/wiki/File:Rauchschwalbe_Hirundo_rustica.jpg,CC BY-SA 2.5,Andreas Trepte,
+data/images/barn_swallow/barn_swallow_02.jpg,image,barn_swallow,https://commons.wikimedia.org/wiki/File:Barn_Swallow_(95504589).jpeg,CC BY-SA 3.0,Morhaf Aljanee,
+data/images/barn_swallow/barn_swallow_03.jpg,image,barn_swallow,https://commons.wikimedia.org/wiki/File:Hirundo-rustica-001.jpg,CC BY-SA 3.0,Mdf at English Wikipedia,
+data/audio/barn_swallow/barn_swallow_01.mp3,audio,barn_swallow,https://commons.wikimedia.org/wiki/File:Hirundo_rustica_-_Barn_Swallow_XC83449.mp3,CC BY-SA 3.0,Jonathon Jongsma,
+data/audio/barn_swallow/barn_swallow_02.mp3,audio,barn_swallow,https://commons.wikimedia.org/wiki/File:Hirundo_rustica_-_Barn_Swallow_XC492101.mp3,CC BY-SA 4.0,Marie-Lan Taÿ Pamart,
+data/images/common_cuckoo/common_cuckoo_01.jpg,image,common_cuckoo,https://commons.wikimedia.org/wiki/File:Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791_cropped.jpg,GFDL 1.2,Vogelartinfo; Bogbumper,
+data/images/common_cuckoo/common_cuckoo_02.jpg,image,common_cuckoo,https://commons.wikimedia.org/wiki/File:Cuculus_canorus2.jpg,CC BY-SA 3.0,GabrielBuissart,
+data/images/common_cuckoo/common_cuckoo_03.jpg,image,common_cuckoo,https://commons.wikimedia.org/wiki/File:B%C3%B6senbechhofen_Weiher_Kuckuck_Cuculus_canorus-20240608-RM-170659.jpg,CC BY-SA 4.0,Reinhold Möller Ermell,
+data/audio/common_cuckoo/common_cuckoo_01.mp3,audio,common_cuckoo,https://commons.wikimedia.org/wiki/File:Cuculus_canorus_-_Common_Cuckoo_XC552150.mp3,CC BY-SA 4.0,Tommy Andriollo,
+data/audio/common_cuckoo/common_cuckoo_02.mp3,audio,common_cuckoo,https://commons.wikimedia.org/wiki/File:Cuculus_canorus_-_Common_Cuckoo_XC457076.mp3,CC BY-SA 4.0,Hannu Varkki,
+data/images/white_stork/white_stork_01.jpg,image,white_stork,https://commons.wikimedia.org/wiki/File:Ciconia_ciconia_-_01.jpg,CC BY-SA 3.0,Carlos Delgado,
+data/images/white_stork/white_stork_02.jpg,image,white_stork,https://commons.wikimedia.org/wiki/File:White_Stork-Mindaugas_Urbonas-1.jpg,CC BY-SA 2.5,Mindaugas Urbonas,
+data/images/white_stork/white_stork_03.jpg,image,white_stork,https://commons.wikimedia.org/wiki/File:P%C3%A1%C5%99en%C3%AD_%C4%8D%C3%A1p%C5%AF_b%C3%ADl%C3%BDch.jpg,CC BY-SA 4.0,Lubomír Dajč,
+data/images/mallard/mallard_01.jpg,image,mallard,https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_(Male)_on_the_ground.jpg,CC BY-SA 4.0,Commonists,
+data/images/mallard/mallard_02.jpg,image,mallard,"https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_near_City_Lake,_Ivano-Frankivsk.jpg",CC BY 4.0,Tetiana.iefimenko,
+data/images/mallard/mallard_03.jpg,image,mallard,https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_male_female.jpg,CC BY-SA 2.5,Richard Bartz,
+data/audio/mallard/mallard_01.ogg,audio,mallard,https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_-_Mallard_-_XC112828.ogg,CC BY-SA 3.0,Jonathon Jongsma,
+data/audio/mallard/mallard_02.mp3,audio,mallard,https://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_-_Mallard_XC62258.mp3,CC BY-SA 3.0,Jonathon Jongsma,
+data/text/house_sparrow.txt,text,house_sparrow,https://en.wikipedia.org/wiki/House_sparrow,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/great_tit.txt,text,great_tit,https://en.wikipedia.org/wiki/Great_tit,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/eurasian_magpie.txt,text,eurasian_magpie,https://en.wikipedia.org/wiki/Eurasian_magpie,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/hooded_crow.txt,text,hooded_crow,https://en.wikipedia.org/wiki/Hooded_crow,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/common_blackbird.txt,text,common_blackbird,https://en.wikipedia.org/wiki/Common_blackbird,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/common_nightingale.txt,text,common_nightingale,https://en.wikipedia.org/wiki/Common_nightingale,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/barn_swallow.txt,text,barn_swallow,https://en.wikipedia.org/wiki/Barn_swallow,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/common_cuckoo.txt,text,common_cuckoo,https://en.wikipedia.org/wiki/Common_cuckoo,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/text/white_stork.txt,text,white_stork,https://en.wikipedia.org/wiki/White_stork,CC BY-SA 4.0,Авторы Википедии,en+ru
+data/audio/white_stork/white_stork_01.ogg,audio,white_stork,https://commons.wikimedia.org/wiki/File:Ciconia_ciconia_bill-clattering.ogg,CC BY-SA 3.0,felix.blume,
+data/audio/white_stork/white_stork_02.wav,audio,white_stork,https://xeno-canto.org/1103877,CC BY-NC-SA 4.0,Petter Westberg,
+data/text/mallard.txt,text,mallard,https://en.wikipedia.org/wiki/Mallard,CC BY-SA 4.0,Авторы Википедии,en+ru
